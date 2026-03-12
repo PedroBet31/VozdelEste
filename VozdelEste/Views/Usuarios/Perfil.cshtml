@@ -1,0 +1,25 @@
+﻿@model VozdelEste.Models.Usuarios
+
+@{
+    ViewBag.Title = "Mi Perfil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link href="~/Styles/Usuarios/UsuariosPerfil.css" rel="stylesheet" />
+}
+
+<div class="perfil-panel">
+    <h2>Mi Perfil</h2>
+
+    <div class="perfil-info">
+        <p><strong>Nombre:</strong> @Model.Nombre</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Rol:</strong> @Model.Roles.Nombre</p>
+    </div>
+
+    <div class="perfil-actions">
+        @Html.ActionLink("Editar mis datos", "Edit", "Usuarios", new { id = Model.Id }, new { @class = "btn-editar" })
+        @Html.ActionLink("Eliminar mi cuenta", "Delete", "Usuarios", new { id = Model.Id }, new { @class = "btn-eliminar" })
+    </div>
+</div>

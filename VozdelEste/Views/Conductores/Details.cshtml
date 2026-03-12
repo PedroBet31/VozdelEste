@@ -1,0 +1,35 @@
+﻿@model VozdelEste.Models.Conductores
+
+@{
+    ViewBag.Title = "Detalles del Conductor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var u = Session["Usuario"] as VozdelEste.Models.Usuarios;
+}
+
+@section Styles {
+    <link href="~/Styles/Views/ConductoresViews.css" rel="stylesheet" />
+}
+
+
+<div class="perfil-panel">
+    <h2>Detalles del Conductor</h2>
+
+    @if (!string.IsNullOrEmpty(Model.Imagen))
+    {
+        <p><strong>Imagen:</strong></p>
+        <img src="@Model.Imagen" alt="Foto conductor" style="max-width:100%; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.4);" />
+    }
+
+    <div class="perfil-info">
+        <p><strong>Nombre:</strong> @Model.Nombre</p>
+        <p><strong>Biografía:</strong> @Model.Bio</p>
+    </div>
+
+    <div class="perfil-actions">
+        @if (u != null && u.TienePermiso("Editar conductores"))
+        {
+            @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-editar" })
+        }        
+        @Html.ActionLink("Volver", "Index", null, new { @class = "btn btn-eliminar" })
+    </div>
+</div>

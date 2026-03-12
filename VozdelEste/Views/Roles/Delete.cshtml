@@ -1,0 +1,27 @@
+﻿@model VozdelEste.Models.Roles
+
+@{
+    ViewBag.Title = "Eliminar Rol";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link href="~/Styles/Views/RolesViews.css" rel="stylesheet" />
+}
+
+<div class="perfil-panel">
+    <h2>¿Eliminar este Rol?</h2>
+
+    <div class="perfil-info mb-4">
+        <p><strong>Nombre:</strong> @Model.Nombre</p>
+    </div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="perfil-actions">
+            <input type="submit" value="Eliminar" class="btn btn-eliminar" />
+            @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-editar" })
+        </div>
+    }
+</div>

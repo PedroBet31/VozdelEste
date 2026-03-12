@@ -1,0 +1,82 @@
+﻿@model IEnumerable<VozdelEste.Models.Noticias>
+
+@{
+    ViewBag.Title = "Noticias";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var u = Session["Usuario"] as VozdelEste.Models.Usuarios;
+}
+
+<style>
+    .noticia-botones {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+        .noticia-botones .btn {
+            padding: 0.4rem 0.8rem;
+            font-size: 0.85rem;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.2s ease-in-out;
+        }
+
+            .noticia-botones .btn:hover {
+                transform: translateY(-2px);
+                opacity: 0.9;
+            }
+</style>
+
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Noticias</h2>
+
+    @if (u != null && u.TienePermiso("Crear noticias"))
+    {
+        <div class="text-center mt-4">
+            <a href="@Url.Action("Create")" class="btn btn-primary">Crear nueva noticia</a>
+        </div>
+    }
+    <br /><br />
+    <div class="row">
+        @foreach (var noticia in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card bg-transparent border-light shadow" style="min-height: 350px;">
+                    @* Imagen de la noticia *@
+                    <img src="@noticia.Imagen" alt="@noticia.Titulo" class="card-img-top" style="height:200px; object-fit:cover;" />
+
+                    <div class="card-body">
+                        <h5 class="card-title text-white">@noticia.Titulo</h5>
+                        <p class="card-text text-light">
+                            @(
+                                noticia.Contenido != null && noticia.Contenido.Length > 100
+                                ? noticia.Contenido.Substring(0, 100) + "..."
+                                : noticia.Contenido
+                            )
+                        </p>
+                        <p class="card-text text-info"><strong>Publicada:</strong> @noticia.FechaPublicacion.ToString("dd/MM/yyyy")</p>
+                        <div class="noticia-botones">
+                            @if (u != null && u.TienePermiso("Ver noticias"))
+                            {
+                                <a href="@Url.Action("Details", new { id = noticia.Id })" class="btn btn-outline-light btn-sm">Ver detalles</a>
+                            }
+                            @if (u != null && u.TienePermiso("Editar noticias"))
+                            {
+                                <a href="@Url.Action("Edit", new { id = noticia.Id })" class="btn btn-outline-warning btn-sm">Editar</a>
+                            }
+                            @if (u != null && u.TienePermiso("Eliminar noticias"))
+                            {
+                                <a href="@Url.Action("Delete", new { id = noticia.Id })" class="btn btn-outline-danger btn-sm">Eliminar</a>
+                            }
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+</div>

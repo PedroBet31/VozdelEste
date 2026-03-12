@@ -1,0 +1,190 @@
+﻿@model IEnumerable<VozdelEste.Models.Permisos>
+@{
+    ViewBag.Title = "Permisos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .perfil-panel {
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border-radius: 15px;
+        padding: 2rem;
+        max-width: 600px;
+        margin: 3rem auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        color: white;
+        text-align: left;
+        font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+        .perfil-panel h2 {
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+            letter-spacing: 0.05em;
+        }
+
+    .perfil-info p {
+        font-size: 1.1rem;
+        margin: 0.5rem 0;
+        color: #e0e0e0;
+    }
+
+    .perfil-actions {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+        .perfil-actions a,
+        .perfil-actions input[type="submit"] {
+            padding: 0.6rem 1.4rem;
+            border-radius: 10px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+
+            .perfil-actions a:hover,
+            .perfil-actions input[type="submit"]:hover {
+                background-color: rgba(255, 255, 255, 0.2);
+                box-shadow: 0 6px 16px rgba(99, 164, 255, 0.8);
+                transform: scale(1.05);
+            }
+
+    .btn-editar {
+        background-color: rgba(163, 206, 241, 0.85);
+        color: #0f2027;
+        border: none;
+        box-shadow: 0 2px 6px rgba(99, 164, 255, 0.6);
+    }
+
+        .btn-editar:hover {
+            background-color: #7bbbe5;
+            box-shadow: 0 6px 16px rgba(99, 164, 255, 0.8);
+            color: #0f2027;
+            transform: scale(1.05);
+        }
+
+    .btn-eliminar {
+        background-color: rgba(224, 78, 78, 0.85);
+        color: white;
+        border: none;
+        box-shadow: 0 2px 6px rgba(210, 50, 50, 0.6);
+    }
+
+        .btn-eliminar:hover {
+            background-color: #c63838;
+            box-shadow: 0 6px 16px rgba(210, 50, 50, 0.8);
+            transform: scale(1.05);
+        }
+
+    .main-panel {
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border-radius: 15px;
+        padding: 2rem;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        color: white;
+        font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .btn-create {
+        background-color: rgb(11, 55, 92);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 2px 6px rgba(11, 55, 92, 0.8);
+    }
+
+        .btn-create:hover {
+            background-color: #63a4ff;
+            color: white;
+            box-shadow: 0 6px 16px rgba(99, 164, 255, 0.8);
+        }
+
+    .table th,
+    .table td {
+        color: white;
+        vertical-align: middle;
+    }
+
+    .action-links .action-btn {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        padding: 0.4rem 0.8rem;
+        margin-left: 0.3rem;
+        text-decoration: none;
+        font-weight: 500;
+        color: white;
+        transition: background 0.4s ease, transform 0.2s ease;
+        box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+        cursor: pointer;
+    }
+
+    .action-btn.edit:hover {
+        background-color: #0a79c7;
+        transform: scale(1.05);
+    }
+
+    .action-btn.details:hover {
+        background-color: #1fa381;
+        transform: scale(1.05);
+    }
+
+    .action-btn.delete:hover {
+        background-color: #d14242;
+        transform: scale(1.05);
+    }
+
+
+</style>
+
+<div class="container my-5">
+    <div class="main-panel">
+        <h2 class="text-center mb-4">Gestión de Permisos</h2>
+        <div class="text-end mb-3">
+            <a href="@Url.Action("Create")" class="btn-create">➕ Crear nuevo permiso</a>
+        </div>
+        <table class="table table-bordered text-white">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th class="text-end">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Nombre</td>
+                        <td class="text-end action-links">
+                            <a class="action-btn edit" href="@Url.Action("Edit", new { id = item.Id })">Editar</a>
+                            <a class="action-btn details" href="@Url.Action("Details", new { id = item.Id })">Detalles</a>
+                            <a class="action-btn delete" href="@Url.Action("Delete", new { id = item.Id })">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

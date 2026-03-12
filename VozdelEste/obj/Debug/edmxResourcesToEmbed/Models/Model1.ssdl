@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VozDelEsteDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="CI" />
+    </Key>
+    <Property Name="CI" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Apellido" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="FechaNacimiento" Type="date" Nullable="false" />
+    <Property Name="UsuarioId" Type="int" />
+  </EntityType>
+  <EntityType Name="Clima">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="Temperatura" Type="decimal" Precision="5" Scale="2" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Icono" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="ComentariosProgramas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClienteCI" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="ProgramaId" Type="int" Nullable="false" />
+    <Property Name="Comentario" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Conductores">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Bio" Type="nvarchar(max)" />
+    <Property Name="Imagen" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Cotizaciones">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="TipoMoneda" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Valor" Type="decimal" Precision="18" Scale="4" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Noticias">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Titulo" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Contenido" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FechaPublicacion" Type="date" Nullable="false" />
+    <Property Name="Imagen" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Patrocinadores">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar(max)" />
+    <Property Name="PlanDiario" Type="int" Nullable="false" />
+    <Property Name="Imagen" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Permisos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProgramaConductores">
+    <Key>
+      <PropertyRef Name="ProgramaId" />
+      <PropertyRef Name="ConductorId" />
+    </Key>
+    <Property Name="ProgramaId" Type="int" Nullable="false" />
+    <Property Name="ConductorId" Type="int" Nullable="false" />
+    <Property Name="FechaAsignacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Programas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Imagen" Type="nvarchar" MaxLength="255" />
+    <Property Name="Descripcion" Type="nvarchar(max)" />
+    <Property Name="DiaSemana" Type="nvarchar" MaxLength="70" />
+    <Property Name="HoraInicio" Type="time" Precision="7" Nullable="false" />
+    <Property Name="HoraFin" Type="time" Precision="7" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RolPermisos">
+    <Key>
+      <PropertyRef Name="RolId" />
+      <PropertyRef Name="PermisoId" />
+    </Key>
+    <Property Name="RolId" Type="int" Nullable="false" />
+    <Property Name="PermisoId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Contrasena" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="RolId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Comentari__Clien__282DF8C2">
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="1" />
+    <End Role="ComentariosProgramas" Type="Self.ComentariosProgramas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="CI" />
+      </Principal>
+      <Dependent Role="ComentariosProgramas">
+        <PropertyRef Name="ClienteCI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Comentari__Progr__29221CFB">
+    <End Role="Programas" Type="Self.Programas" Multiplicity="1" />
+    <End Role="ComentariosProgramas" Type="Self.ComentariosProgramas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Programas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ComentariosProgramas">
+        <PropertyRef Name="ProgramaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ProgramaC__Condu__0B91BA14">
+    <End Role="Conductores" Type="Self.Conductores" Multiplicity="1" />
+    <End Role="ProgramaConductores" Type="Self.ProgramaConductores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Conductores">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProgramaConductores">
+        <PropertyRef Name="ConductorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ProgramaC__Progr__0A9D95DB">
+    <End Role="Programas" Type="Self.Programas" Multiplicity="1" />
+    <End Role="ProgramaConductores" Type="Self.ProgramaConductores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Programas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProgramaConductores">
+        <PropertyRef Name="ProgramaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RolPermis__Permi__4E88ABD4">
+    <End Role="Permisos" Type="Self.Permisos" Multiplicity="1" />
+    <End Role="RolPermisos" Type="Self.RolPermisos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Permisos">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RolPermisos">
+        <PropertyRef Name="PermisoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RolPermis__RolId__4D94879B">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+    <End Role="RolPermisos" Type="Self.RolPermisos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RolPermisos">
+        <PropertyRef Name="RolId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Usuarios__RolId__52593CB8">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Usuarios">
+        <PropertyRef Name="RolId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Clientes_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="0..1" />
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Clientes">
+        <PropertyRef Name="UsuarioId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VozDelEsteDBModelStoreContainer">
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clima" EntityType="Self.Clima" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ComentariosProgramas" EntityType="Self.ComentariosProgramas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Conductores" EntityType="Self.Conductores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cotizaciones" EntityType="Self.Cotizaciones" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Noticias" EntityType="Self.Noticias" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Patrocinadores" EntityType="Self.Patrocinadores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Permisos" EntityType="Self.Permisos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProgramaConductores" EntityType="Self.ProgramaConductores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Programas" EntityType="Self.Programas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RolPermisos" EntityType="Self.RolPermisos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Comentari__Clien__282DF8C2" Association="Self.FK__Comentari__Clien__282DF8C2">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="ComentariosProgramas" EntitySet="ComentariosProgramas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Comentari__Progr__29221CFB" Association="Self.FK__Comentari__Progr__29221CFB">
+      <End Role="Programas" EntitySet="Programas" />
+      <End Role="ComentariosProgramas" EntitySet="ComentariosProgramas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ProgramaC__Condu__0B91BA14" Association="Self.FK__ProgramaC__Condu__0B91BA14">
+      <End Role="Conductores" EntitySet="Conductores" />
+      <End Role="ProgramaConductores" EntitySet="ProgramaConductores" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ProgramaC__Progr__0A9D95DB" Association="Self.FK__ProgramaC__Progr__0A9D95DB">
+      <End Role="Programas" EntitySet="Programas" />
+      <End Role="ProgramaConductores" EntitySet="ProgramaConductores" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RolPermis__Permi__4E88ABD4" Association="Self.FK__RolPermis__Permi__4E88ABD4">
+      <End Role="Permisos" EntitySet="Permisos" />
+      <End Role="RolPermisos" EntitySet="RolPermisos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RolPermis__RolId__4D94879B" Association="Self.FK__RolPermis__RolId__4D94879B">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="RolPermisos" EntitySet="RolPermisos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Usuarios__RolId__52593CB8" Association="Self.FK__Usuarios__RolId__52593CB8">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Usuarios" EntitySet="Usuarios" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Clientes_Usuarios" Association="Self.FK_Clientes_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="Clientes" EntitySet="Clientes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

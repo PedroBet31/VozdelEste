@@ -1,0 +1,90 @@
+﻿@model List<VozdelEste.Models.ComentariosProgramas>
+@{
+    ViewBag.Title = "Comentarios del Cliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .perfil-panel {
+        background-color: rgba(255, 255, 255, 0.08);
+        border-radius: 15px;
+        padding: 2rem;
+        max-width: 700px;
+        margin: 3rem auto;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        color: white;
+        text-align: left;
+        backdrop-filter: blur(6px);
+    }
+
+        .perfil-panel h2 {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+    table.table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        table.table th,
+        table.table td {
+            padding: 0.7rem 1rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+    .btn-editar {
+        background-color: #a3cef1;
+        color: #0f2027;
+        padding: 0.6rem 1.4rem;
+        border-radius: 8px;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
+        transition: background-color 0.2s ease-in-out;
+        border: none;
+        cursor: pointer;
+    }
+
+        .btn-editar:hover {
+            background-color: #7bbbe5;
+        }
+</style>
+
+<div class="container my-5">
+    <div class="perfil-panel">
+        <h2 class="text-center mb-4">Comentarios de @ViewBag.NombreCliente (@ViewBag.ClienteCI)</h2>
+
+        @if (!Model.Any())
+        {
+            <p class="text-center text-light">Este cliente no ha comentado ningún programa.</p>
+        }
+        else
+        {
+            <table class="table text-white">
+                <thead>
+                    <tr>
+                        <th>Programa</th>
+                        <th>Comentario</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var com in Model)
+                    {
+                        <tr>
+                            <td>@com.Programas.Nombre</td>
+                            <td>@com.Comentario</td>
+                            <td>@com.Fecha.ToString("dd/MM/yyyy HH:mm")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+
+        <div class="text-center mt-4">
+            @Html.ActionLink("← Volver", "Index", null, new { @class = "btn-editar" })
+        </div>
+    </div>
+</div>

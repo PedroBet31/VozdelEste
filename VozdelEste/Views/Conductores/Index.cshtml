@@ -1,0 +1,84 @@
+﻿@model IEnumerable<VozdelEste.Models.Conductores>
+
+@{
+    ViewBag.Title = "Conductores";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var u = Session["Usuario"] as VozdelEste.Models.Usuarios;
+}
+
+<style>
+    .conductor-botones {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+        .conductor-botones .btn {
+            padding: 0.4rem 0.8rem;
+            font-size: 0.85rem;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.2s ease-in-out;
+        }
+
+            .conductor-botones .btn:hover {
+                transform: translateY(-2px);
+                opacity: 0.9;
+            }
+</style>
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Conductores</h2>
+
+    @if (u != null && u.TienePermiso("Registrar conductores"))
+    {
+        <div class="text-center mt-4">
+            <a href="@Url.Action("Create")" class="btn btn-primary">Crear nuevo conductor</a>
+        </div>
+    }
+    <br /><br />
+
+    <div class="row">
+        @foreach (var conductor in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card bg-transparent border-light shadow" style="min-height: 380px;">
+                    @if (!string.IsNullOrEmpty(conductor.Imagen))
+                    {
+                        <img src="@conductor.Imagen" alt="@conductor.Nombre" class="card-img-top" style="height:180px; object-fit:contain; background-color: #111;" />
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title text-white">@conductor.Nombre</h5>
+                        <p class="card-text text-light">
+                            @(
+                                conductor.Bio != null && conductor.Bio.Length > 100
+                                ? conductor.Bio.Substring(0, 100) + "..."
+                                : conductor.Bio
+                            )
+                        </p>
+
+                        <div class="conductor-botones">
+                            @if (u != null && u.TienePermiso("Ver conductores"))
+                            {
+                                <a href="@Url.Action("Details", new { id = conductor.Id })" class="btn btn-outline-light btn-sm">Ver detalles</a>
+                            }
+                            @if (u != null && u.TienePermiso("Editar conductores"))
+                            {
+                                <a href="@Url.Action("Edit", new { id = conductor.Id })" class="btn btn-outline-warning btn-sm">Editar</a>
+                            }
+                            @if (u != null && u.TienePermiso("Eliminar conductores"))
+                            {
+                                <a href="@Url.Action("Delete", new { id = conductor.Id })" class="btn btn-outline-danger btn-sm">Eliminar</a>
+                            }
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+
+</div>

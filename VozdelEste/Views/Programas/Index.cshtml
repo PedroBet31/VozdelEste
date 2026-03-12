@@ -1,0 +1,101 @@
+﻿@model IEnumerable<VozdelEste.Models.Programas>
+
+@{
+    ViewBag.Title = "Programas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var u = Session["Usuario"] as VozdelEste.Models.Usuarios;
+}
+
+<style>
+    .programa-botones {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+        .programa-botones .btn {
+            padding: 0.4rem 0.8rem;
+            font-size: 0.85rem;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.2s ease-in-out;
+        }
+
+            .programa-botones .btn:hover {
+                transform: translateY(-2px);
+                opacity: 0.9;
+            }
+
+            .programa-botones .btn.w-100 {
+                flex: 1 1 100%;
+            }
+</style>
+
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Programas de Radio</h2>
+
+    @if (u != null && u.TienePermiso("Crear programas"))
+    {
+        <div class="text-center mt-4">
+            <a href="@Url.Action("Create")" class="btn btn-primary">Crear nuevo programa</a>
+        </div>
+        <br /><br />
+    }
+
+    <div class="row">
+        @foreach (var programa in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card bg-transparent border-light shadow" style="min-height: 360px;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-white">@programa.Nombre</h5>
+
+                        @if (!string.IsNullOrEmpty(programa.Imagen))
+                        {
+                            <img src="@programa.Imagen" class="img-fluid rounded mb-2" style="max-height:180px; object-fit:cover;" alt="Imagen de @programa.Nombre" />
+                        }
+
+                        <p class="card-text text-light">@programa.Descripcion</p>
+                        <p class="card-text text-info"><strong>Día:</strong> @programa.DiaSemana</p>
+                        <p class="card-text text-info"><strong>Hora:</strong> @programa.HoraInicio</p>
+
+                        <div class="mt-auto programa-botones">
+                            <div class="mt-auto programa-botones">
+                                @if (u != null && u.TienePermiso("Ver programas"))
+                                {
+                                    <a href="@Url.Action("Details", new { id = programa.Id })" class="btn btn-outline-light btn-sm">Ver detalles</a>
+                                }
+                                @if (u != null && u.TienePermiso("Editar programas"))
+                                {
+                                    <a href="@Url.Action("Edit", new { id = programa.Id })" class="btn btn-outline-warning btn-sm">Editar</a>
+                                }
+                                @if (u != null && u.TienePermiso("Eliminar programas"))
+                                {
+                                    <a href="@Url.Action("Delete", new { id = programa.Id })" class="btn btn-outline-danger btn-sm">Eliminar</a>
+                                }
+                                @if (u != null && u.TienePermiso("Ver conductores"))
+                                {
+                                    <a href="@Url.Action("VerConductores", "Programas", new { id = programa.Id })" class="btn btn-outline-info btn-sm">Ver Conductores</a>
+                                }
+                                @if (u != null && u.Roles.Nombre == "Administrador")
+                                {
+                                    <a href="@Url.Action("AsignarConductores", "Programas", new { id = programa.Id })" class="btn btn-outline-primary btn-sm">Asignar Conductores</a>
+                                }
+
+                            </div>
+
+                            @if (u != null && u.TienePermiso("Ver programas"))
+                            {
+                                <a href="@Url.Action("PorPrograma", "ComentariosProgramas", new { id = programa.Id })" class="btn btn-outline-success btn-sm mt-2 w-100">Ver Comentarios</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+</div>

@@ -1,0 +1,66 @@
+﻿.main-panel {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.info-box {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 150px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2, h5, p {
+    color: white;
+}
+
+img.weather-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.noticia-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+    .noticia-card:hover {
+        background-color: rgba(255, 255, 255, 0.15);
+        transform: translateY(-3px);
+    }
+
+    .noticia-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    }
+
+    .noticia-card h5 {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+
+    .noticia-card .text-info {
+        color: #a3cef1;
+    }
+
+.frase-dia {
+    font-style: italic;
+    font-size: 1.05rem;
+    color: #dddddd;
+    margin-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    padding-top: 1rem;
+}

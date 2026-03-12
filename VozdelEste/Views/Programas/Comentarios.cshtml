@@ -1,0 +1,181 @@
+﻿@model VozdelEste.Models.ComentariosViewModel
+
+@{
+    ViewBag.Title = "Comentarios de " + Model.Programa.Nombre;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var clienteCI = ViewBag.ClienteCI != null ? ViewBag.ClienteCI.ToString() : "";
+}
+
+@section Styles {
+    <style>
+        .comentario-item {
+            position: relative;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 1rem 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .comentario-acciones {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .btn-editar, .btn-borrar {
+            background: transparent;
+            border: none;
+            color: #1fa381;
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+            .btn-editar:hover {
+                color: #169172;
+            }
+
+            .btn-borrar:hover {
+                color: #ff5c5c;
+            }
+
+        textarea.edit-textarea {
+            width: 100%;
+            border-radius: 8px;
+            border: none;
+            background-color: rgba(255,255,255,0.15);
+            color: white;
+            padding: 10px;
+            resize: vertical;
+        }
+
+        .form-inline-edit {
+            margin-top: 0.5rem;
+        }
+
+        .perfil-panel {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.3);
+            color: white;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .form-control {
+            background-color: rgba(255,255,255,0.1);
+            color: white;
+            border: none;
+            border-radius: 8px;
+        }
+
+            .form-control:focus {
+                background-color: rgba(255,255,255,0.2);
+                color: white;
+            }
+
+        .btn-enviar {
+            background-color: #1fa381;
+            color: white;
+            border: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+        }
+
+            .btn-enviar:hover {
+                background-color: #169172;
+            }
+
+        .btn-cancelar {
+            margin-left: 1rem;
+            color: #ccc;
+        }
+    </style>
+}
+
+<div class="perfil-panel">
+    <h2>Comentarios de <span class="text-info">@Model.Programa.Nombre</span></h2>
+
+    <div class="comentarios-list">
+        @if (!Model.Comentarios.Any())
+        {
+            <p>No hay comentarios aún. ¡Sé el primero en comentar!</p>
+        }
+        else
+        {
+            foreach (var c in Model.Comentarios)
+            {
+                var esMio = c.ClienteCI == clienteCI;
+                <div class="comentario-item" id="comentario-@c.Id">
+                    <p class="comentario-text">@c.Comentario</p>
+                    <div class="comentario-meta">
+                        Por: <strong>@c.ClienteNombre</strong> | @c.Fecha.ToString("dd/MM/yyyy HH:mm")
+                    </div>
+
+                    @if (esMio)
+                    {
+                        <div class="comentario-acciones">
+                            <button class="btn-editar" onclick="mostrarEditar(@c.Id)">Editar</button>
+                            @using (Html.BeginForm("BorrarComentario", "Programas", FormMethod.Post, new { onsubmit = "return confirm('¿Seguro que querés borrar tu comentario?');" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                @Html.Hidden("id", c.Id)
+                                <button type="submit" class="btn-borrar">Borrar</button>
+                            }
+                        </div>
+
+                        <div id="editar-form-@c.Id" style="display:none; margin-top: 1rem;">
+                            @using (Html.BeginForm("EditarComentario", "Programas", FormMethod.Post))
+                            {
+                                @Html.AntiForgeryToken()
+                                @Html.Hidden("Id", c.Id)
+                                <textarea name="Comentario" class="edit-textarea" rows="3">@c.Comentario</textarea>
+                                <button type="submit" class="btn-enviar" style="margin-top:0.5rem;">Guardar</button>
+                                <button type="button" class="btn-borrar" style="margin-top:0.5rem;" onclick="ocultarEditar(@c.Id)">Cancelar</button>
+                            }
+                        </div>
+                    }
+                </div>
+            }
+        }
+    </div>
+
+    <h3>Agregar nuevo comentario</h3>
+
+    @using (Html.BeginForm("Comentarios", "Programas", FormMethod.Post, new { @id = "comentario-form" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m => m.NuevoComentario.ProgramaId)
+        @Html.HiddenFor(m => m.NuevoComentario.ClienteCI, new { @Value = clienteCI })
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.NuevoComentario.Comentario)
+            @Html.TextAreaFor(m => m.NuevoComentario.Comentario, new { @class = "form-control", rows = 4, required = "required", placeholder = "Escribe tu comentario aquí..." })
+            @Html.ValidationMessageFor(m => m.NuevoComentario.Comentario, "", new { @class = "validation-error" })
+        </div>
+
+        <button type="submit" class="btn-enviar">Enviar comentario</button>
+        @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn-cancelar" })
+    }
+</div>
+
+@section Scripts {
+    <script>
+        function mostrarEditar(id) {
+            document.getElementById('editar-form-' + id).style.display = 'block';
+            document.querySelector('#comentario-' + id + ' .comentario-text').style.display = 'none';
+            document.querySelector('#comentario-' + id + ' .comentario-meta').style.display = 'none';
+            document.querySelector('#comentario-' + id + ' .comentario-acciones').style.display = 'none';
+        }
+
+        function ocultarEditar(id) {
+            document.getElementById('editar-form-' + id).style.display = 'none';
+            document.querySelector('#comentario-' + id + ' .comentario-text').style.display = 'block';
+            document.querySelector('#comentario-' + id + ' .comentario-meta').style.display = 'block';
+            document.querySelector('#comentario-' + id + ' .comentario-acciones').style.display = 'flex';
+        }
+    </script>
+}

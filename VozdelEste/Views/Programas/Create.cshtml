@@ -1,0 +1,55 @@
+﻿@model VozdelEste.Models.Programas
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link href="~/Styles/Views/ProgramasViews.css" rel="stylesheet" />
+}
+
+<div class="perfil-panel">
+    <h2>Crear nuevo programa</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="mb-3">
+            @Html.LabelFor(model => model.Nombre)
+            @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(model => model.Imagen)
+            @Html.TextBoxFor(model => model.Imagen, new { @class = "form-control" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(model => model.Descripcion)
+            @Html.TextAreaFor(model => model.Descripcion, new { @class = "form-control", rows = 4 })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(model => model.DiaSemana)
+            @Html.TextBoxFor(model => model.DiaSemana, new { @class = "form-control" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(model => model.HoraInicio)
+            @Html.TextBoxFor(model => model.HoraInicio, new { @class = "form-control", type = "time" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(model => model.HoraFin)
+            @Html.TextBoxFor(model => model.HoraFin, new { @class = "form-control", type = "time" })
+        </div>
+
+        <div class="perfil-actions">
+            <input type="submit" value="Crear" class="btn btn-editar" />
+            @Html.ActionLink("Volver", "Index", null, new { @class = "btn btn-eliminar" })
+        </div>
+    }
+</div>

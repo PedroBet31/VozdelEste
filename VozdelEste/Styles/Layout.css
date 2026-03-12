@@ -1,0 +1,93 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+.body-content {
+    flex: 1;
+    padding: 2rem;
+}
+
+nav.navbar {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-size: 1.15rem;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 5px 12px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+    .navbar-nav .nav-item:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+nav.navbar .nav-link,
+nav.navbar .navbar-brand,
+nav.navbar .nav-link span {
+    color: white !important;
+    font-weight: 500;
+}
+
+    nav.navbar .nav-link:hover {
+        color: #a3cef1 !important;
+    }
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: transparent;
+}
+
+    footer img {
+        max-height: 68px;
+        margin: 0 10px;
+    }
+
+.navbar .dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    padding: 0.5rem 0;
+    min-width: 180px;
+}
+
+    .navbar .dropdown-menu .dropdown-item {
+        color: white;
+        padding: 10px 16px;
+        transition: background-color 0.3s ease, color 0.2s ease;
+    }
+
+        .navbar .dropdown-menu .dropdown-item:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #a3cef1;
+        }
+
+.navbar-nav .dropdown:hover > .nav-link,
+.navbar-nav .dropdown .nav-link.show {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#calendar {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    color: white;
+}
+

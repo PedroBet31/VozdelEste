@@ -1,0 +1,1914 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|c:\\users\\p3dro\\onedrive\\documents\\carrera\\programaci\u00F3n 3\\obligatorio p3\\vozdeleste\\vozdeleste\\styles\\views\\noticiasviews.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\styles\\views\\noticiasviews.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|c:\\users\\p3dro\\onedrive\\documents\\carrera\\programaci\u00F3n 3\\obligatorio p3\\vozdeleste\\vozdeleste\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\cotizaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\cotizaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\monedas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\monedas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|c:\\users\\p3dro\\onedrive\\documents\\carrera\\programaci\u00F3n 3\\obligatorio p3\\vozdeleste\\vozdeleste\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\home\\pronostico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\home\\pronostico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\helpers\\seguridadhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\helpers\\seguridadhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\controllers\\calendariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\controllers\\calendariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\controllers\\comentariosprogramascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\controllers\\comentariosprogramascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\home\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\home\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\comentariosprogramas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\comentariosprogramas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\comentariosprogramas\\porprograma.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\comentariosprogramas\\porprograma.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\editarrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\editarrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\asignarconductoresviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\asignarconductoresviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\rolpermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\rolpermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\usuariospermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\usuariospermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\crearclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\crearclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\comentariosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\comentariosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\controllers\\permisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\controllers\\permisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\controllers\\conductorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\controllers\\conductorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\controllers\\patrocinadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\controllers\\patrocinadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\controllers\\programascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\controllers\\programascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\styles\\views\\conductoresviews.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\styles\\views\\conductoresviews.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\usuarios\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\usuarios\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\usuarios\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\usuarios\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\shared\\reproductor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\shared\\reproductor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\roles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\roles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\roles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\roles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\roles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\roles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\roles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\roles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\programas\\verconductores.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\programas\\verconductores.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\programas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\programas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\programas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\programas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\programas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\programas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\programas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\programas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\programas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\programas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\programas\\comentarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\programas\\comentarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\programas\\comentar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\programas\\comentar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\programas\\asignarconductores.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\programas\\asignarconductores.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\permisos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\permisos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\permisos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\permisos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\permisos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\permisos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\permisos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\permisos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\permisos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\permisos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\patrocinadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\patrocinadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\patrocinadores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\patrocinadores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\patrocinadores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\patrocinadores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\patrocinadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\patrocinadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\patrocinadores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\patrocinadores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\noticias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\noticias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\noticias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\noticias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\noticias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\noticias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\noticias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\noticias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\home\\cotizaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\home\\cotizaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\conductores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\conductores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\conductores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\conductores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\conductores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\conductores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\conductores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\conductores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\conductores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\conductores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\comentariosprogramas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\comentariosprogramas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\comentariosprogramas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\comentariosprogramas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\comentariosprogramas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\comentariosprogramas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\clientes\\comentarioscliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\clientes\\comentarioscliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\calendario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\calendario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\styles\\rolesedit.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\styles\\rolesedit.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\styles\\roles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\styles\\roles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\styles\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\styles\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\styles\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\styles\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\styles\\asignarconductores.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\styles\\asignarconductores.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\programas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\programas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\patrocinadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\patrocinadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\permisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\permisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\conductores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\conductores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\models\\model1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\models\\model1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\vozdeleste\\views\\programas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C495D13F-04A8-4A15-A3BF-FFC92ABA7D5C}|VozdelEste\\VozdelEste.csproj|solutionrelative:vozdeleste\\views\\programas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\ProgramasViews.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VozdelEste\\Styles\\ProgramasViews.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\ConductoresViews.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VozdelEste\\Styles\\ConductoresViews.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\Home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VozdelEste\\Styles\\Home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\UsuariosPerfil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VozdelEste\\Styles\\UsuariosPerfil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\HomeContact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VozdelEste\\Styles\\HomeContact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\UsuariosEdit.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VozdelEste\\Styles\\UsuariosEdit.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\UsuariosDelete.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VozdelEste\\Styles\\UsuariosDelete.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\UsuariosRegister.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VozdelEste\\Styles\\UsuariosRegister.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\UsuariosLogin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VozdelEste\\Styles\\UsuariosLogin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\HomeAbout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VozdelEste\\Styles\\HomeAbout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NoticiasViews.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\Views\\NoticiasViews.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\Views\\NoticiasViews.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\Views\\NoticiasViews.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\Views\\NoticiasViews.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-12T17:35:36.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "VozdelEste\\App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T17:34:18.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Monedas.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Monedas.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\Monedas.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Monedas.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\Monedas.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAiwBcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T23:44:27.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cotizaciones.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Cotizaciones.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\Cotizaciones.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Cotizaciones.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\Cotizaciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T23:44:02.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "VozdelEste\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAswFYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T14:31:44.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "VozdelEste\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:39:27.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "VozdelEste\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T00:28:45.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "VozdelEste\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T20:12:08.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Services\\ApiService.cs",
+              "RelativeToolTip": "VozdelEste\\Services\\ApiService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwBIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T23:14:10.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Weather.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Weather.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\Weather.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Weather.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\Weather.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswKEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T23:13:18.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NoticiasController.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\NoticiasController.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Controllers\\NoticiasController.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\NoticiasController.cs",
+              "RelativeToolTip": "VozdelEste\\Controllers\\NoticiasController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:41:17.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "VozdelEste\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T23:05:06.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T15:05:15.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Pronostico.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Home\\Pronostico.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Home\\Pronostico.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Home\\Pronostico.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Home\\Pronostico.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T17:02:04.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CalendarioController.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\CalendarioController.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Controllers\\CalendarioController.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\CalendarioController.cs",
+              "RelativeToolTip": "VozdelEste\\Controllers\\CalendarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T14:02:51.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SeguridadHelper.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Helpers\\SeguridadHelper.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Helpers\\SeguridadHelper.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Helpers\\SeguridadHelper.cs",
+              "RelativeToolTip": "VozdelEste\\Helpers\\SeguridadHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T05:31:46.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ComentariosProgramasController.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\ComentariosProgramasController.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Controllers\\ComentariosProgramasController.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\ComentariosProgramasController.cs",
+              "RelativeToolTip": "VozdelEste\\Controllers\\ComentariosProgramasController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T19:23:33.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "VozdelEste\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAL8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T04:47:42.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AsignarConductoresViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\AsignarConductoresViewModel.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\AsignarConductoresViewModel.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\AsignarConductoresViewModel.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\AsignarConductoresViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T22:49:09.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Historial.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Home\\Historial.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Home\\Historial.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Home\\Historial.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Home\\Historial.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T17:59:11.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PorPrograma.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\ComentariosProgramas\\PorPrograma.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\ComentariosProgramas\\PorPrograma.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\ComentariosProgramas\\PorPrograma.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\ComentariosProgramas\\PorPrograma.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T19:25:35.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\ComentariosProgramas\\Index.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\ComentariosProgramas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\ComentariosProgramas\\Index.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\ComentariosProgramas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T14:38:18.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EditarRolViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\EditarRolViewModel.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\EditarRolViewModel.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\EditarRolViewModel.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\EditarRolViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T16:13:34.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RolPermisos.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\RolPermisos.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\RolPermisos.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\RolPermisos.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\RolPermisos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T20:42:06.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UsuariosPermisos.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\UsuariosPermisos.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\UsuariosPermisos.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\UsuariosPermisos.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\UsuariosPermisos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T16:13:49.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ComentariosViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\ComentariosViewModel.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\ComentariosViewModel.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\ComentariosViewModel.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\ComentariosViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T18:44:45.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CrearClienteViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\CrearClienteViewModel.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\CrearClienteViewModel.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\CrearClienteViewModel.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\CrearClienteViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T05:26:37.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "VozdelEste\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAwwJsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:21:49.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PermisosController.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\PermisosController.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Controllers\\PermisosController.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\PermisosController.cs",
+              "RelativeToolTip": "VozdelEste\\Controllers\\PermisosController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T20:33:45.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ConductoresController.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\ConductoresController.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Controllers\\ConductoresController.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\ConductoresController.cs",
+              "RelativeToolTip": "VozdelEste\\Controllers\\ConductoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T23:34:00.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PatrocinadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\PatrocinadoresController.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Controllers\\PatrocinadoresController.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\PatrocinadoresController.cs",
+              "RelativeToolTip": "VozdelEste\\Controllers\\PatrocinadoresController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwIoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T23:08:41.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProgramasController.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\ProgramasController.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Controllers\\ProgramasController.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\ProgramasController.cs",
+              "RelativeToolTip": "VozdelEste\\Controllers\\ProgramasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T00:38:28.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "VozdelEste\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAADIBAAAAAAAAAAAAAEABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:45:56.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ConductoresViews.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\Views\\ConductoresViews.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\Views\\ConductoresViews.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\Views\\ConductoresViews.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\Views\\ConductoresViews.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-09T23:56:00.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T15:17:44.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Usuarios.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Usuarios.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\Usuarios.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T20:23:55.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "VozdelEste\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-07-09T21:07:15.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Usuarios\\Login.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Usuarios\\Login.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Usuarios\\Login.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Usuarios\\Login.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T14:49:12.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Clientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Clientes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Clientes\\Create.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Clientes\\Create.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAKIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T04:56:54.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Usuarios\\Register.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Usuarios\\Register.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Usuarios\\Register.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Usuarios\\Register.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T14:54:50.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Usuarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Usuarios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Usuarios\\Create.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Usuarios\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T19:35:41.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Usuarios\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Usuarios\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T15:13:15.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T04:49:02.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Clientes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Clientes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Clientes\\Edit.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Clientes\\Edit.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAJEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T04:57:12.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T15:13:09.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Clientes\\Details.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Clientes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Clientes\\Details.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Clientes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T04:57:27.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Perfil.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Usuarios\\Perfil.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Usuarios\\Perfil.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Usuarios\\Perfil.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Usuarios\\Perfil.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T15:25:58.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Usuarios\\Delete.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Usuarios\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Usuarios\\Delete.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Usuarios\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T15:17:57.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Usuarios\\Details.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Usuarios\\Details.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Usuarios\\Details.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Usuarios\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T15:17:54.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Reproductor.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Shared\\Reproductor.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Shared\\Reproductor.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Shared\\Reproductor.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Shared\\Reproductor.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-11T19:54:41.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T15:17:52.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T14:22:15.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Roles\\Index.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Roles\\Index.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Roles\\Index.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Roles\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T15:26:41.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Roles\\Edit.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Roles\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Roles\\Edit.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Roles\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T14:27:47.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Roles\\Details.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Roles\\Details.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Roles\\Details.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Roles\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T15:26:31.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Roles\\Delete.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Roles\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Roles\\Delete.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Roles\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T15:26:26.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Roles\\Create.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Roles\\Create.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Roles\\Create.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Roles\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T15:26:07.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "VerConductores.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\VerConductores.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Programas\\VerConductores.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\VerConductores.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Programas\\VerConductores.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAADEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T19:26:18.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\Index.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Programas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\Index.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Programas\\Index.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T00:46:20.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Programas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\Edit.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Programas\\Edit.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T01:16:08.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\Details.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Programas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\Details.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Programas\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T20:12:03.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Programas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\Delete.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Programas\\Delete.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T20:11:41.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\Create.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Programas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\Create.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Programas\\Create.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T00:06:26.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Comentarios.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\Comentarios.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Programas\\Comentarios.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\Comentarios.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Programas\\Comentarios.cshtml",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T18:45:28.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Comentar.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\Comentar.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Programas\\Comentar.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\Comentar.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Programas\\Comentar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T15:51:58.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "AsignarConductores.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\AsignarConductores.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Programas\\AsignarConductores.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas\\AsignarConductores.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Programas\\AsignarConductores.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T19:25:51.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Permisos\\Index.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Permisos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Permisos\\Index.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Permisos\\Index.cshtml",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T20:38:33.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Permisos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Permisos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Permisos\\Edit.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Permisos\\Edit.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T20:38:04.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Permisos\\Details.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Permisos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Permisos\\Details.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Permisos\\Details.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T20:38:21.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Permisos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Permisos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Permisos\\Delete.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Permisos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T20:38:14.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Permisos\\Create.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Permisos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Permisos\\Create.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Permisos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T20:37:45.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Patrocinadores\\Index.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Patrocinadores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Patrocinadores\\Index.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Patrocinadores\\Index.cshtml",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T23:12:10.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Patrocinadores\\Edit.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Patrocinadores\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Patrocinadores\\Edit.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Patrocinadores\\Edit.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T19:44:43.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Patrocinadores\\Details.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Patrocinadores\\Details.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Patrocinadores\\Details.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Patrocinadores\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-11T20:26:44.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Patrocinadores\\Delete.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Patrocinadores\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Patrocinadores\\Delete.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Patrocinadores\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-11T20:26:44.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Patrocinadores\\Create.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Patrocinadores\\Create.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Patrocinadores\\Create.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Patrocinadores\\Create.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAEoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-11T20:26:21.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Noticias\\Index.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Noticias\\Index.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Noticias\\Index.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Noticias\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T19:27:54.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Noticias\\Edit.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Noticias\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Noticias\\Edit.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Noticias\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-11T21:35:06.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Noticias\\Details.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Noticias\\Details.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Noticias\\Details.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Noticias\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-11T21:33:03.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Noticias\\Delete.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Noticias\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Noticias\\Delete.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Noticias\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T20:19:49.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Noticias\\Create.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Noticias\\Create.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Noticias\\Create.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Noticias\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T14:40:34.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Cotizaciones.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Home\\Cotizaciones.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Home\\Cotizaciones.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Home\\Cotizaciones.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Home\\Cotizaciones.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T17:58:37.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T16:39:50.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Conductores\\Index.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Conductores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Conductores\\Index.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Conductores\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T23:35:21.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Conductores\\Edit.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Conductores\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Conductores\\Edit.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Conductores\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T01:02:13.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Conductores\\Details.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Conductores\\Details.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Conductores\\Details.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Conductores\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T01:02:25.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Conductores\\Delete.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Conductores\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Conductores\\Delete.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Conductores\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T01:02:35.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Conductores\\Create.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Conductores\\Create.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Conductores\\Create.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Conductores\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T01:01:55.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\ComentariosProgramas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\ComentariosProgramas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\ComentariosProgramas\\Edit.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\ComentariosProgramas\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T14:37:54.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\ComentariosProgramas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\ComentariosProgramas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\ComentariosProgramas\\Delete.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\ComentariosProgramas\\Delete.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T14:37:51.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\ComentariosProgramas\\Create.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\ComentariosProgramas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\ComentariosProgramas\\Create.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\ComentariosProgramas\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T14:37:47.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "ComentariosCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Clientes\\ComentariosCliente.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Clientes\\ComentariosCliente.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Clientes\\ComentariosCliente.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Clientes\\ComentariosCliente.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T04:54:13.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Calendario\\Index.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Calendario\\Index.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Calendario\\Index.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Calendario\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T14:04:41.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Clientes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Clientes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Clientes\\Delete.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Clientes\\Delete.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAG0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T04:57:50.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "RolesEdit.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\RolesEdit.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\RolesEdit.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\RolesEdit.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\RolesEdit.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-26T19:30:37.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "Roles.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\Roles.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\Roles.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\Roles.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\Roles.css",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-10T15:14:11.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "Layout.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\Layout.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\Layout.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\Layout.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\Layout.css",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-10T15:10:16.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "Dashboard.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\Dashboard.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\Dashboard.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\Dashboard.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\Dashboard.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-27T20:02:45.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "AsignarConductores.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\AsignarConductores.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\AsignarConductores.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\AsignarConductores.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\AsignarConductores.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-09T23:58:01.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Roles.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\Roles.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Roles.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\Roles.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T20:44:57.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "Programas.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Programas.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\Programas.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Programas.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\Programas.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T19:22:20.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\Model1.Context.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Model1.Context.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\Model1.Context.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwCMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T21:08:36.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "Patrocinadores.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Patrocinadores.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\Patrocinadores.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Patrocinadores.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\Patrocinadores.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T20:28:53.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "Permisos.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Permisos.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\Permisos.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Permisos.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\Permisos.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:42:37.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "Conductores.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Conductores.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\Conductores.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Conductores.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\Conductores.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T19:16:28.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "Model1.Context.tt",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Model1.Context.tt",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\Model1.Context.tt",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Model1.Context.tt",
+              "RelativeToolTip": "VozdelEste\\Models\\Model1.Context.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-26T20:43:57.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "Model1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Model1.Designer.cs",
+              "RelativeDocumentMoniker": "VozdelEste\\Models\\Model1.Designer.cs",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Models\\Model1.Designer.cs",
+              "RelativeToolTip": "VozdelEste\\Models\\Model1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T21:05:30.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "ProgramasViews.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\ProgramasViews.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\ProgramasViews.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\ProgramasViews.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\ProgramasViews.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-27T20:10:42.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "ConductoresViews.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\ConductoresViews.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\ConductoresViews.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\ConductoresViews.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\ConductoresViews.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-02T01:05:51.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "Home.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\Home.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\Home.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\Home.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\Home.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-24T22:52:34.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "UsuariosPerfil.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\UsuariosPerfil.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\UsuariosPerfil.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\UsuariosPerfil.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\UsuariosPerfil.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-12T15:43:56.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "HomeContact.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\HomeContact.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\HomeContact.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\HomeContact.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\HomeContact.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-10T15:31:11.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "Programas.cshtml",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas.cshtml",
+              "RelativeDocumentMoniker": "VozdelEste\\Views\\Programas.cshtml",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Views\\Programas.cshtml",
+              "RelativeToolTip": "VozdelEste\\Views\\Programas.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T00:39:12.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "UsuariosEdit.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\UsuariosEdit.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\UsuariosEdit.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\UsuariosEdit.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\UsuariosEdit.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-12T15:48:31.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "UsuariosDelete.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\UsuariosDelete.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\UsuariosDelete.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\UsuariosDelete.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\UsuariosDelete.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-12T15:48:42.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "UsuariosRegister.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\UsuariosRegister.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\UsuariosRegister.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\UsuariosRegister.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\UsuariosRegister.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-12T14:53:06.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "UsuariosLogin.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\UsuariosLogin.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\UsuariosLogin.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\UsuariosLogin.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\UsuariosLogin.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-10T15:09:14.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "HomeAbout.css",
+              "DocumentMoniker": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\HomeAbout.css",
+              "RelativeDocumentMoniker": "VozdelEste\\Styles\\HomeAbout.css",
+              "ToolTip": "C:\\Users\\p3dro\\OneDrive\\Documents\\CARRERA\\PROGRAMACI\u00D3N 3\\OBLIGATORIO P3\\VozdelEste\\VozdelEste\\Styles\\HomeAbout.css",
+              "RelativeToolTip": "VozdelEste\\Styles\\HomeAbout.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-10T15:21:01.072Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

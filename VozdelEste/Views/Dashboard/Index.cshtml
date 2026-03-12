@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center mb-4">Dashboard</h2>
+
+@section Styles {
+    <link href="~/Styles/Dashboard.css" rel="stylesheet" />
+}
+
+<div class="row mb-4">
+    <div class="col-md-3 mb-3">
+        <div class="info-box p-3 text-center" style="background-color: rgba(255,255,255,0.1); border-radius:10px;">
+            <h4>Usuarios</h4>
+            <p class="display-6">@ViewBag.TotalUsuarios</p>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="info-box p-3 text-center" style="background-color: rgba(255,255,255,0.1); border-radius:10px;">
+            <h4>Programas</h4>
+            <p class="display-6">@ViewBag.TotalProgramas</p>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="info-box p-3 text-center" style="background-color: rgba(255,255,255,0.1); border-radius:10px;">
+            <h4>Conductores</h4>
+            <p class="display-6">@ViewBag.TotalConductores</p>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="info-box p-3 text-center" style="background-color: rgba(255,255,255,0.1); border-radius:10px;">
+            <h4>Patrocinadores</h4>
+            <p class="display-6">@ViewBag.TotalPatrocinadores</p>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="info-box p-3 text-center" style="background-color: rgba(255,255,255,0.1); border-radius:10px;">
+            <h4>Noticias</h4>
+            <p class="display-6">@ViewBag.TotalNoticias</p>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="info-box p-3 text-center" style="background-color: rgba(255,255,255,0.1); border-radius:10px;">
+            <h4>Roles</h4>
+            <p class="display-6">@ViewBag.TotalRoles</p>
+        </div>
+    </div>
+</div>
+
+<hr class="my-4" />
+
+<h5 class="text-center mb-4 text-white">Accesos rápidos</h5>
+
+@{
+    int? idUltimoPrograma = ViewBag.UltimoProgramaId as int?;
+}
+
+<div class="d-flex flex-wrap justify-content-center gap-3">
+    @Html.ActionLink("Noticias", "Index", "Noticias", null, new { @class = "dashboard-link" })
+    @Html.ActionLink("Programas", "Index", "Programas", null, new { @class = "dashboard-link" })
+    @Html.ActionLink("Calendario", "Index", "Calendario", null, new { @class = "dashboard-link" })
+    @Html.ActionLink("Conductores", "Index", "Conductores", null, new { @class = "dashboard-link" })
+    @Html.ActionLink("Patrocinadores", "Index", "Patrocinadores", null, new { @class = "dashboard-link" })
+    @Html.ActionLink("Roles", "Index", "Roles", null, new { @class = "dashboard-link" })
+    @Html.ActionLink("Usuarios", "Index", "Usuarios", null, new { @class = "dashboard-link" })
+</div>
+

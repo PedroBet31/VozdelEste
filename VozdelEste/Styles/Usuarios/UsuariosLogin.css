@@ -1,0 +1,44 @@
+﻿.login-panel {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: auto;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    .login-panel h2 {
+        margin-bottom: 1.5rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid #ccc;
+}
+
+    .form-control::placeholder {
+        color: #ddd;
+    }
+
+    .form-control:focus {
+        background-color: rgb(4, 49, 67);
+        border-color: #a3cef1;
+        box-shadow: 0 0 8px rgba(163, 206, 241, 0.6);
+        color: white;
+    }
+
+.btn-primary {
+    background-color: rgb(11, 55, 92);
+    border-color: #a3cef1;
+    color: white;
+    font-weight: bold;
+}
+
+    .btn-primary:hover {
+        background-color: rgb(23, 79, 126);
+        border-color: #7bbbe5;
+    }

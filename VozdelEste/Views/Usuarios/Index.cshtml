@@ -1,0 +1,68 @@
+﻿@model IEnumerable<VozdelEste.Models.Usuarios>
+
+@{
+    ViewBag.Title = "Usuarios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var u = (VozdelEste.Models.Usuarios)Session["Usuario"];
+}
+
+@section Styles {
+    <link href="~/Styles/Roles.css" rel="stylesheet" />
+}
+
+<div class="container my-5">
+    <div class="main-panel">
+        <h2 class="text-center mb-4">Gestión de Usuarios</h2>
+
+        <div class="text-end mb-3">
+            @if (u.TienePermiso("Crear usuarios"))
+            {
+                @Html.ActionLink("➕ Crear nuevo usuario", "Create", null, new { @class = "btn-create" })
+            }
+
+            @if (u.Roles.Nombre == "Administrador" || u.TienePermiso("Ver clientes"))
+            {
+                @Html.ActionLink("👥 Gestión de Clientes", "Index", "Clientes", null, new { @class = "btn-create ms-2" })
+            }
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered roles-table text-white">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Nombre)</th>
+                        <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Email)</th>
+                        <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Roles.Nombre)</th>
+                        <th class="text-end">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(m => item.Nombre)</td>
+                            <td>@Html.DisplayFor(m => item.Email)</td>
+                            <td>@Html.DisplayFor(m => item.Roles.Nombre)</td>
+                            <td class="text-end action-links">
+                                @if (u.TienePermiso("Editar usuarios"))
+                                {
+                                    <a class="action-btn edit" href="@Url.Action("Edit", new { id = item.Id })">Editar</a>
+                                }
+
+                                @if (u.TienePermiso("Ver usuarios"))
+                                {
+                                    <a class="action-btn details" href="@Url.Action("Details", new { id = item.Id })">Detalles</a>
+                                }
+
+                                @if (u.TienePermiso("Eliminar usuarios"))
+                                {
+                                    <a class="action-btn delete" href="@Url.Action("Delete", new { id = item.Id })">Eliminar</a>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,181 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    var usuario = Session["Usuario"] as VozdelEste.Models.Usuarios;
+    var estaLogueado = usuario != null;
+    var ultimaNoticia = ViewBag.UltimaNoticia as VozdelEste.Models.Noticias;
+    var frase = "La radio no solo se escucha, también se vive. 📻✨";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voz del Este - Inicio</title>
+    <link href="~/Styles/Home/Home.css" rel="stylesheet" />
+
+</head>
+<style>
+    .noticia-card {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        padding: 2rem;
+        text-align: left;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+        color: white;
+        transition: all 0.3s ease-in-out;
+    }
+
+        .noticia-card:hover {
+            background-color: rgba(255, 255, 255, 0.15);
+            transform: translateY(-3px);
+        }
+
+        .noticia-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+        }
+
+        .noticia-card h5 {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .noticia-card .text-info {
+            color: #a3cef1;
+        }
+
+    .frase-dia {
+        font-style: italic;
+        font-size: 1.05rem;
+        color: #dddddd;
+        margin-top: 1rem;
+        border-top: 1px solid rgba(255,255,255,0.2);
+        padding-top: 1rem;
+    }
+</style>
+<body>
+    <div class="container my-5">
+        <div class="row">
+
+            <div class="col-md-3 mb-4 d-flex flex-column justify-content-between">
+                <a href="@Url.Action("Cotizaciones", "Home")" style="text-decoration:none;color:inherit;">
+                    <div class="info-box">
+                        <h5>Cotizaciones</h5>
+                        <div id="cotizaciones">
+                            <p>
+                                USD: $<span id="usd">--</span><br />
+                                EUR: €<span id="eur">--</span><br />
+                                BRL: R$<span id="brl">--</span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                @if (!estaLogueado)
+                {
+                    <div class="main-panel">
+                        <h2>Bienvenido a Voz del Este</h2>
+                        <p>Para acceder a todas las funciones de la radio y participar activamente, <strong>registrese o inicie sesión</strong> con su cuenta.</p>
+                        <a href="/Usuarios/Login" class="btn btn-primary mt-3">Iniciar Sesión</a>
+                    </div>
+                }
+                else
+                {
+                    <div class="noticia-card">
+                        <h4>📰 Última Noticia</h4>
+                        @if (ultimaNoticia != null)
+                        {
+                            <img src="@ultimaNoticia.Imagen" alt="Imagen noticia" />
+                            <h5>@ultimaNoticia.Titulo</h5>
+                            <p>
+                                @(
+                    ultimaNoticia.Contenido?.Length > 150
+                    ? ultimaNoticia.Contenido.Substring(0, 150) + "..."
+                    : ultimaNoticia.Contenido
+                )
+                            </p>
+                            <p class="text-info"><small>Publicada: @ultimaNoticia.FechaPublicacion.ToString("dd/MM/yyyy")</small></p>
+                            <a href="@Url.Action("Details", "Noticias", new { id = ultimaNoticia.Id })" class="btn btn-outline-light btn-sm">Ver más</a>
+                        }
+                        else
+                        {
+                            <p>No hay noticias disponibles.</p>
+                        }
+
+                        <div class="frase-dia">
+                            <p class="text-muted"><em>@frase</em></p>
+                        </div>
+                    </div>
+                }
+
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <a href="@Url.Action("Pronostico", "Home")" style="text-decoration:none;color:inherit;">
+                    <div class="info-box" id="weatherBox">
+                        @if (ViewBag.Weather != null)
+                        {
+                            var c = (VozdelEste.Models.Weather.Weather)ViewBag.Weather;
+                            <h5>Clima en @c.Name</h5>
+                            <p>
+                                Temp: @c.Main.Temp °C<br />
+                                Sensación: @c.Main.FeelsLike °C<br />
+                                Humedad: @c.Main.Humidity%<br />
+                                Estado: @c.WeatherWeather[0].Description<br />
+                            </p>
+                            <small>▶ Ver pronóstico 6 días</small>
+                        }
+                        else
+                        {
+                            <p class="text-danger">No se pudo cargar el clima.</p>
+                        }
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        fetch('/Home/GetCotizacionesJson')
+            .then(r => r.json())
+            .then(data => {
+                if (!data.error) {
+                    document.getElementById("usd").textContent = data.usd.toFixed(2);
+                    document.getElementById("eur").textContent = data.eur.toFixed(4);
+                    document.getElementById("brl").textContent = data.brl.toFixed(4);
+                } else {
+                    document.getElementById("cotizaciones").innerHTML = "<p class='text-danger'>Error al cargar cotizaciones</p>";
+                }
+            })
+            .catch(err => {
+                document.getElementById("cotizaciones").innerHTML = "<p class='text-danger'>Sin conexión</p>";
+            });
+
+        fetch('/Home/GetWeatherJson')
+            .then(r => r.json())
+            .then(d => {
+                const box = document.getElementById('weatherBox');
+                if (box) {
+                    box.innerHTML = `
+                                    <h5>Clima en ${d.nombre}</h5>
+                                    <p>
+                                        Temp: ${d.temperatura} °C<br />
+                                        Sensación: ${d.sensacion} °C<br />
+                                        Humedad: ${d.humedad}%<br />
+                                        Estado: ${d.descripcion}<br />
+                                    </p>
+                                    <small>▶ Ver pronóstico 6 días</small>`;
+                }
+            })
+            .catch(err => console.error('Error clima:', err));
+    </script>
+</body>
+</html>

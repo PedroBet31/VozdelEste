@@ -1,0 +1,110 @@
+﻿@model List<VozdelEste.Models.Programas>
+
+@{
+    ViewBag.Title = "Calendario de Programas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var diasSemana = new[] { "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo" };
+}
+
+@section Styles {
+    <style>
+        .calendario-container {
+            overflow-x: auto;
+            margin: 2rem auto;
+            max-width: 1000px;
+        }
+
+        .calendario {
+            display: grid;
+            grid-template-columns: 100px repeat(7, 1fr);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .calendario-header {
+            background: rgba(255, 255, 255, 0.1);
+            font-weight: bold;
+            text-align: center;
+            padding: 0.8rem;
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+        }
+
+        .hora-label {
+            text-align: right;
+            padding: 0.5rem;
+            border-right: 1px solid rgba(255,255,255,0.2);
+            font-size: 0.9rem;
+        }
+
+        .celda {
+            position: relative;
+            height: 60px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            border-right: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .programa-block {
+            position: absolute;
+            left: 2px;
+            right: 2px;
+            background-color: rgba(0, 153, 255, 0.3);
+            color: white;
+            font-size: 0.75rem;
+            padding: 0.2rem;
+            border-radius: 5px;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+
+            .programa-block img {
+                width: 100%;
+                max-height: 40px;
+                object-fit: contain;
+                margin-bottom: 3px;
+                border-radius: 4px;
+            }
+    </style>
+}
+
+<div class="calendario-container">
+    <h2 class="text-center mb-4">📅 Calendario de Programas</h2>
+
+    <div class="calendario">
+        <div></div>
+        @foreach (var dia in diasSemana)
+        {
+            <div class="calendario-header">@dia</div>
+        }
+
+        @for (int hora = 6; hora <= 23; hora++) 
+        {
+            <div class="hora-label">@hora:00</div>
+            foreach (var dia in diasSemana)
+            {
+                <div class="celda">
+                    @foreach (var p in Model)
+                    {
+                        if ((p.DiaSemana.Contains(dia) || p.DiaSemana.Contains("a " + dia)) &&
+                            p.HoraInicio.Hours <= hora && p.HoraFin.Hours > hora &&
+                            p.HoraInicio.Hours == hora)
+                        {
+                            var minutosInicio = p.HoraInicio.Minutes;
+                            var duracionMinutos = (int)(p.HoraFin - p.HoraInicio).TotalMinutes;
+                            var topOffset = minutosInicio;
+                            var height = duracionMinutos;
+
+                            <div class="programa-block" style="top:@(topOffset)px; height:@(height)px;" title="@p.Nombre - @p.HoraInicio.ToString(@"hh\:mm") a @p.HoraFin.ToString(@"hh\:mm")">
+                                @if (!string.IsNullOrEmpty(p.Imagen))
+                                {
+                                    <img src="@p.Imagen" alt="logo" />
+                                }
+                                <div><strong>@p.Nombre</strong></div>
+                                <small>@p.HoraInicio.ToString(@"hh\:mm") - @p.HoraFin.ToString(@"hh\:mm")</small>
+                            </div>
+                        }
+                    }
+                </div>
+            }
+        }
+    </div>
+</div>

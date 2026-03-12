@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Iniciar Sesión";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link href="~/Styles/Usuarios/UsuariosLogin.css" rel="stylesheet" />
+}
+
+<div class="container my-5">
+    <div class="login-panel">
+        <h2 class="text-center">Iniciar Sesión</h2>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="usuario@ejemplo.com" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="contrasena" class="form-label">Contraseña</label>
+                <input type="password" name="contrasena" id="contrasena" class="form-control" placeholder="********" required />
+            </div>
+
+            if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger mt-3">@ViewBag.Error</div>
+            }
+
+            <div class="d-grid mt-4">
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+            </div>
+        }
+
+        <div class="text-center mt-4">
+            <span>¿No tenés cuenta?</span>
+            <a href="@Url.Action("Register", "Usuarios")" class="btn btn-outline-secondary mt-2">Registrarse</a>
+        </div>
+    </div>
+</div>

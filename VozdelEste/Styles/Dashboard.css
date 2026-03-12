@@ -1,0 +1,19 @@
+﻿.dashboard-link {
+    background: rgba(11, 55, 92, 0.85);
+    color: white !important;
+    padding: 0.7rem 1.4rem;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+
+    .dashboard-link:hover {
+        background: #63a4ff;
+        color: #fff !important;
+        transform: scale(1.05);
+        text-shadow: 0 0 8px #ffffff;
+    }

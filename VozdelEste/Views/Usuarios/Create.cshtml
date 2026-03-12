@@ -1,0 +1,53 @@
+﻿@model VozdelEste.Models.Usuarios
+
+@{
+    ViewBag.Title = "Crear Usuario";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link href="~/Styles/Views/UsuariosViews.css" rel="stylesheet" />
+}
+
+<div class="perfil-panel">
+    <h2>Crear Usuario</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Nombre)
+            @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control", placeholder = "Nombre completo" })
+            @Html.ValidationMessageFor(m => m.Nombre, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Email)
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control", type = "email", placeholder = "ejemplo@email.com" })
+            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Contrasena)
+            @Html.PasswordFor(m => m.Contrasena, new { @class = "form-control", placeholder = "Contraseña" })
+            @Html.ValidationMessageFor(m => m.Contrasena, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.RolId, "Rol")
+            @Html.DropDownList("RolId", null, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.RolId, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="perfil-actions">
+            <input type="submit" value="Crear" class="btn btn-editar" />
+            @Html.ActionLink("Volver", "Index", null, new { @class = "btn btn-eliminar" })
+        </div>
+    }
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

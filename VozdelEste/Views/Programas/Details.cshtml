@@ -1,0 +1,50 @@
+﻿@model VozdelEste.Models.Programas
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var u = Session["Usuario"] as VozdelEste.Models.Usuarios;
+}
+
+
+@section Styles {
+    <link href="~/Styles/Views/ProgramasViews.css" rel="stylesheet" />
+}
+
+<div class="perfil-panel">
+    <h2>Detalles del Programa</h2>
+
+    <dl class="perfil-info">
+        <dt>Nombre</dt>
+        <dd>@Model.Nombre</dd>
+
+        @if (!string.IsNullOrEmpty(Model.Imagen))
+        {
+            <dt>Imagen</dt>
+            <dd>
+                <img src="@Model.Imagen" alt="Imagen" class="img-fluid rounded shadow" style="max-width: 400px; max-height: 250px; object-fit: contain;" />
+                <br />
+            </dd>
+        }
+
+        <dt>Descripción</dt>
+        <dd>@Model.Descripcion</dd>
+
+        <dt>Día</dt>
+        <dd>@Model.DiaSemana</dd>
+
+        <dt>Hora Inicio</dt>
+        <dd>@Model.HoraInicio</dd>
+
+        <dt>Hora Fin</dt>
+        <dd>@Model.HoraFin</dd>
+    </dl>
+
+    <div class="perfil-actions">
+        @if (u != null && u.TienePermiso("Editar programas"))
+        {
+            @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-editar" })
+        }
+        @Html.ActionLink("Volver", "Index", null, new { @class = "btn btn-eliminar" })
+    </div>
+</div>

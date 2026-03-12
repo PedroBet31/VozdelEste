@@ -1,0 +1,127 @@
+﻿@model VozdelEste.Models.Permisos
+@{
+    ViewBag.Title = "Detalles del Permiso";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .perfil-panel {
+        background-color: rgba(255, 255, 255, 0.08);
+        border-radius: 15px;
+        padding: 2rem;
+        max-width: 600px;
+        margin: 3rem auto;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        color: white;
+        text-align: left;
+    }
+
+        .perfil-panel h2 {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+    .perfil-info p {
+        font-size: 1.1rem;
+        margin: 0.5rem 0;
+    }
+
+    .perfil-actions {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+        .perfil-actions a,
+        .perfil-actions input[type="submit"] {
+            padding: 0.6rem 1.4rem;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 0.2s ease-in-out;
+            border: none;
+            cursor: pointer;
+        }
+
+    .btn-editar {
+        background-color: #a3cef1;
+        color: #0f2027;
+    }
+
+        .btn-editar:hover {
+            background-color: #7bbbe5;
+        }
+
+    .btn-eliminar {
+        background-color: #e04e4e;
+        color: white;
+    }
+
+        .btn-eliminar:hover {
+            background-color: #c63838;
+        }
+
+    .main-panel {
+        background-color: rgba(255, 255, 255, 0.08);
+        border-radius: 15px;
+        padding: 2rem;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        color: white;
+    }
+
+    .btn-create {
+        background-color: #1565c0;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-create:hover {
+            background-color: #0d47a1;
+        }
+
+    .table th,
+    .table td {
+        color: white;
+        vertical-align: middle;
+    }
+
+    .action-links .action-btn {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        padding: 0.4rem 0.8rem;
+        margin-left: 0.3rem;
+        text-decoration: none;
+        font-weight: 500;
+        transition: background 0.2s ease;
+    }
+
+    .action-btn.edit:hover {
+        background-color: #2196f3;
+    }
+
+    .action-btn.details:hover {
+        background-color: #4caf50;
+    }
+
+    .action-btn.delete:hover {
+        background-color: #f44336;
+    }
+
+</style>
+
+<div class="perfil-panel">
+    <h2>Detalles del Permiso</h2>
+    <div class="perfil-info">
+        <p><strong>Nombre:</strong> @Model.Nombre</p>
+    </div>
+    <div class="perfil-actions">
+        @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-editar" })
+        @Html.ActionLink("Volver", "Index", null, new { @class = "btn btn-eliminar" })
+    </div>
+</div>

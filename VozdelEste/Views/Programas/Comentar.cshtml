@@ -1,0 +1,77 @@
+﻿@model VozdelEste.Models.ComentariosProgramas
+@{
+    ViewBag.Title = "Comentar Programa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <style>
+        .comentario-panel {
+            background-color: rgba(255, 255, 255, 0.08);
+            border-radius: 15px;
+            padding: 2rem;
+            max-width: 600px;
+            margin: 3rem auto;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            color: white;
+        }
+
+            .comentario-panel h2 {
+                text-align: center;
+                margin-bottom: 1.5rem;
+            }
+
+        .form-control {
+            background-color: rgba(255,255,255,0.1);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+            .form-control:focus {
+                background-color: rgba(255,255,255,0.15);
+                color: white;
+            }
+
+        .comentario-actions {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .btn-enviar {
+            background-color: #1fa381;
+            color: white;
+            border: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+        }
+
+            .btn-enviar:hover {
+                background-color: #169172;
+            }
+    </style>
+}
+
+<p>DEBUG: ProgramaId = @Model.ProgramaId</p>
+<p>DEBUG: ClienteCI = @Model.ClienteCI</p>
+<div class="comentario-panel">
+    <h2>Dejar comentario a <span class="text-info">@ViewBag.NombrePrograma</span></h2>
+
+    @using (Html.BeginForm("Comentar", "Programas", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        @Html.HiddenFor(m => m.ProgramaId)
+        @Html.HiddenFor(m => m.ClienteCI)
+
+        <div class="mb-3">
+            <label>Comentario</label>
+            @Html.TextAreaFor(m => m.Comentario, new { @class = "form-control", rows = 5, required = "required" })
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    }
+</div>

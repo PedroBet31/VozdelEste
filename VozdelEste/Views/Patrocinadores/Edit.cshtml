@@ -1,0 +1,128 @@
+﻿@model VozdelEste.Models.Patrocinadores
+
+@{
+    ViewBag.Title = "Editar Patrocinador";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .perfil-panel {
+        background-color: rgba(255, 255, 255, 0.08);
+        border-radius: 15px;
+        padding: 2rem;
+        max-width: 650px;
+        margin: 3rem auto;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        color: white;
+        text-align: left;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+        .perfil-panel h2 {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+    .perfil-info p {
+        font-size: 1.1rem;
+        margin: 0.5rem 0;
+    }
+
+    .perfil-actions {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+        .perfil-actions a,
+        .perfil-actions input[type="submit"] {
+            padding: 0.6rem 1.4rem;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 0.2s ease-in-out;
+            border: none;
+            cursor: pointer;
+        }
+
+    .btn-editar {
+        background-color: #a3cef1;
+        color: #0f2027;
+    }
+
+        .btn-editar:hover {
+            background-color: #7bbbe5;
+        }
+
+    .btn-eliminar {
+        background-color: #e04e4e;
+        color: white;
+    }
+
+        .btn-eliminar:hover {
+            background-color: #c63838;
+        }
+
+    .patro-logo {
+        margin-top: 0.5rem;
+        max-height: 200px;
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+
+</style>
+
+<div class="perfil-panel">
+    <h2>Editar Patrocinador</h2>
+
+    @using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m => m.Id)
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Nombre)
+            @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Nombre, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Descripcion)
+            @Html.TextAreaFor(m => m.Descripcion, new { @class = "form-control", rows = 4 })
+            @Html.ValidationMessageFor(m => m.Descripcion, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.PlanDiario)
+            @Html.TextBoxFor(m => m.PlanDiario, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.PlanDiario, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+            <label>Imagen actual</label><br />
+            @if (Model.Imagen != null)
+            {
+                var base64 = Convert.ToBase64String(Model.Imagen);
+                var imgSrc = $"data:image/png;base64,{base64}";
+                <img src="@imgSrc" alt="@Model.Nombre" class="patro-logo" />
+            }
+            else
+            {
+                <span class="text-muted">Sin imagen</span>
+            }
+        </div>
+
+        <div class="mb-3">
+            <label>Subir nueva imagen (opcional)</label>
+            <input type="file" name="imagen" class="form-control" accept="image/*" />
+        </div>
+
+        <div class="perfil-actions">
+            <input type="submit" value="Guardar" class="btn btn-editar" />
+            @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-eliminar" })
+        </div>
+    }
+</div>

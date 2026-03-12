@@ -1,0 +1,23 @@
+﻿@model VozdelEste.Models.Roles
+
+@{
+    ViewBag.Title = "Detalles del Rol";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link href="~/Styles/Views/RolesViews.css" rel="stylesheet" />
+}
+
+<div class="perfil-panel">
+    <h2>Detalles del Rol</h2>
+
+    <div class="perfil-info">
+        <p><strong>Nombre:</strong> @Model.Nombre</p>
+    </div>
+
+    <div class="perfil-actions">
+        @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-editar" })
+        @Html.ActionLink("Volver", "Index", null, new { @class = "btn btn-eliminar" })
+    </div>
+</div>

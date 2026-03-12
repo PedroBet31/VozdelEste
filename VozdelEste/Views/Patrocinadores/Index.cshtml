@@ -1,0 +1,151 @@
+﻿@model IEnumerable<VozdelEste.Models.Patrocinadores>
+@{
+    var u = Session["Usuario"] as VozdelEste.Models.Usuarios;
+}
+
+<style>
+    .patrocinadores-panel {
+        background-color: rgba(255, 255, 255, 0.06);
+        padding: 2rem;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        color: white;
+        max-width: 95%;
+        margin: 3rem auto;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+        .patrocinadores-panel h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-weight: bold;
+        }
+
+    .btn-new {
+        display: inline-block;
+        margin-bottom: 1rem;
+        padding: 0.6rem 1.4rem;
+        background-color: #2c5364;
+        color: white;
+        border-radius: 10px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-new:hover {
+            background-color: #1d3a47;
+            text-decoration: none;
+        }
+
+    .patrocinadores-table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: rgba(255, 255, 255, 0.03);
+    }
+
+        .patrocinadores-table th,
+        .patrocinadores-table td {
+            padding: 1rem;
+            text-align: center;
+            color: white;
+            vertical-align: middle;
+        }
+
+        .patrocinadores-table thead {
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .patrocinadores-table img.patro-logo {
+            max-height: 60px;
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+        }
+
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: stretch;
+    }
+
+    .btn-sm {
+        padding: 0.4rem 0.9rem;
+        border-radius: 6px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .btn-outline-warning:hover,
+    .btn-outline-info:hover,
+    .btn-outline-danger:hover {
+        transform: translateY(-2px);
+        opacity: 0.9;
+    }
+
+    .btn-eliminar-full {
+        display: block;
+        width: 100%;
+    }
+</style>
+
+<div class="patrocinadores-panel">
+    <h2>Patrocinadores</h2>
+
+    @if (u != null && u.TienePermiso("Crear patrocinadores"))
+    {
+        <a class="btn-new" href="@Url.Action("Create")">➕ Agregar Patrocinador</a>
+    }
+
+    <table class="patrocinadores-table">
+        <thead>
+            <tr>
+                <th>Logo</th>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Plan Diario</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in Model)
+            {
+                <tr>
+                    <td>
+                        @if (p.Imagen != null)
+                        {
+                            var base64 = Convert.ToBase64String(p.Imagen);
+                            var imgSrc = $"data:image/png;base64,{base64}";
+                            <img src="@imgSrc" class="patro-logo" style="max-height: 60px;" />
+                        }
+                        else
+                        {
+                            <span class="text-muted">Sin imagen</span>
+                        }
+                    </td>
+                    <td>@p.Nombre</td>
+                    <td>@p.Descripcion</td>
+                    <td>@p.PlanDiario veces/día</td>
+                    <td>
+                        <div class="btn-group">
+                            @if (u.TienePermiso("Editar patrocinadores"))
+                            {
+                                <a href="@Url.Action("Edit", new { id = p.Id })" class="btn btn-outline-warning btn-sm">Editar</a>
+                            }
+                            @if (u.TienePermiso("Ver patrocinadores"))
+                            {
+                                <a href="@Url.Action("Details", new { id = p.Id })" class="btn btn-outline-info btn-sm">Detalles</a>
+                            }
+                            @if (u.TienePermiso("Eliminar patrocinadores"))
+                            {
+                                <a href="@Url.Action("Delete", new { id = p.Id })" class="btn btn-outline-danger btn-sm btn-eliminar-full">Eliminar</a>
+                            }
+                        </div>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

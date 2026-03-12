@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Registrarse";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link href="~/Styles/Usuarios/UsuariosRegister.css" rel="stylesheet" />
+}
+
+<div class="container my-5">
+    <div class="register-panel">
+        <h2>Registrarse</h2>
+
+        @using (Html.BeginForm("Register", "Usuarios", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" name="nombre" id="nombre" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="apellido" class="form-label">Apellido</label>
+                <input type="text" name="apellido" id="apellido" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="ci" class="form-label">Cédula de Identidad (CI)</label>
+                <input type="number" name="ci" id="ci" class="form-control" required pattern="\d{8}" maxlength="8" minlength="8" title="La cédula debe tener exactamente 8 dígitos." />
+            </div>
+
+
+            <div class="mb-3">
+                <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento</label>
+                <input type="date" name="fechaNacimiento" id="fechaNacimiento" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" name="email" id="email" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="contrasena" class="form-label">Contraseña</label>
+                <input type="password" name="contrasena" id="contrasena" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="confirmacion" class="form-label">Confirmar Contraseña</label>
+                <input type="password" name="confirmacion" id="confirmacion" class="form-control" required />
+            </div>
+
+            if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger mt-3">@ViewBag.Error</div>
+            }
+
+            <div class="d-grid mt-4">
+                <button type="submit" class="btn btn-primary">Registrarme</button>
+            </div>
+        }
+    </div>
+</div>

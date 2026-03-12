@@ -1,0 +1,105 @@
+﻿.main-panel {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.roles-table th {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.roles-table td, .roles-table th {
+    vertical-align: middle;
+}
+
+.roles-table tr {
+    background-color: rgba(255, 255, 255, 0.08);
+    transition: background-color 0.3s ease;
+}
+
+    .roles-table tr:hover {
+        background-color: rgba(255, 255, 255, 0.18);
+    }
+
+.btn-create {
+    display: inline-block;
+    margin-bottom: 1rem;
+    background-color: rgb(11, 55, 92);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+}
+
+    .btn-create:hover {
+        background-color: #63a4ff;
+        color: white;
+        box-shadow: 0 6px 16px rgba(99, 164, 255, 0.8);
+    }
+
+.action-links a {
+    margin-right: 10px;
+    color: #aad8ff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+    .action-links a:hover {
+        color: #ffffff;
+        text-shadow: 0 0 8px #63a4ff;
+    }
+
+.btn-group {
+    display: flex;
+    gap: 8px;
+}
+
+.action-btn {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+    .action-btn.edit:hover {
+        background-color: #0a79c7;
+    }
+
+    .action-btn.details:hover {
+        background-color: #1fa381;
+    }
+
+    .action-btn.delete:hover {
+        background-color: #d14242;
+    }
+
+.action-btn {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.4rem 0.8rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: background 0.4s ease, transform 0.2s ease;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+}
+
+    .action-btn:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transform: scale(1.05);
+    }

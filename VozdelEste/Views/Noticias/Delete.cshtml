@@ -1,0 +1,34 @@
+﻿@model VozdelEste.Models.Noticias
+
+@{
+    ViewBag.Title = "Eliminar Noticia";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link href="~/Styles/Views/NoticiasViews.css" rel="stylesheet" />
+}
+
+<div class="perfil-panel">
+    <h2>¿Eliminar esta Noticia?</h2>
+
+    <div class="perfil-info mb-4">
+        <p><strong>Título:</strong> @Model.Titulo</p>
+        <p><strong>Contenido:</strong> @Model.Contenido</p>
+        <p><strong>Fecha:</strong> @Model.FechaPublicacion.ToString("dd/MM/yyyy")</p>
+        @if (!string.IsNullOrEmpty(Model.Imagen))
+        {
+            <p><strong>Imagen:</strong></p>
+            <img src="@Model.Imagen" alt="Foto conductor" style="max-width:100%; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.4);" />
+        }
+    </div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="perfil-actions">
+            <input type="submit" value="Eliminar" class="btn btn-eliminar" />
+            @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-editar" })
+        </div>
+    }
+</div>

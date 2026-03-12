@@ -1,0 +1,148 @@
+﻿@model VozdelEste.Models.Clientes
+@{
+    ViewBag.Title = "Editar Cliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .perfil-panel {
+        background-color: rgba(255, 255, 255, 0.08);
+        border-radius: 15px;
+        padding: 2rem;
+        max-width: 600px;
+        margin: 3rem auto;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        color: white;
+        text-align: left;
+        backdrop-filter: blur(6px);
+    }
+
+        .perfil-panel h2 {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+    .perfil-info p {
+        font-size: 1.1rem;
+        margin: 0.5rem 0;
+    }
+
+    .perfil-actions {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+        .perfil-actions a,
+        .perfil-actions input[type="submit"] {
+            padding: 0.6rem 1.4rem;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 0.2s ease-in-out;
+            border: none;
+            cursor: pointer;
+        }
+
+    .btn-editar {
+        background-color: #a3cef1;
+        color: #0f2027;
+    }
+
+        .btn-editar:hover {
+            background-color: #7bbbe5;
+        }
+
+    .btn-eliminar {
+        background-color: #e04e4e;
+        color: white;
+    }
+
+        .btn-eliminar:hover {
+            background-color: #c63838;
+        }
+
+    .mb-3 {
+        margin-bottom: 1.5rem;
+    }
+
+    label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: #e0e0e0;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    textarea,
+    select {
+        width: 100%;
+        padding: 0.6rem;
+        border: none;
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.1);
+        color: white;
+        font-size: 1rem;
+        backdrop-filter: blur(2px);
+    }
+
+        input[type="text"]::placeholder,
+        textarea::placeholder {
+            color: #ccc;
+        }
+
+        input:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+
+    .text-danger {
+        color: #f88;
+        font-size: 0.9rem;
+    }
+
+</style>
+
+<div class="perfil-panel">
+    <h2>Editar Cliente</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m => m.CI)
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Nombre)
+            @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Apellido)
+            @Html.TextBoxFor(m => m.Apellido, new { @class = "form-control" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.Email)
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.FechaNacimiento)
+            @Html.TextBoxFor(m => m.FechaNacimiento, "{0:yyyy-MM-dd}", new { @type = "date", @class = "form-control" })
+        </div>
+
+        <div class="perfil-actions">
+            <input type="submit" value="Guardar" class="btn btn-editar" />
+            @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-eliminar" })
+        </div>
+
+        @Html.HiddenFor(model => model.UsuarioId)
+    }
+</div>

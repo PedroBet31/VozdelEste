@@ -1,0 +1,83 @@
+﻿@model List<VozdelEste.Models.Cotizaciones>
+@{
+    ViewBag.Title = "Historial de " + ViewBag.Moneda;
+    var fechas = Model.Select(c => c.Fecha.ToString("dd/MM")).ToList();
+    var valores = Model.Select(c => c.Valor).ToList();
+}
+
+<style>
+    .historial-container {
+        background-color: rgba(255,255,255,0.05);
+        border-radius: 12px;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+
+    .table-historial {
+        background-color: transparent;
+        color: #fff;
+    }
+
+        .table-historial th, .table-historial td {
+            text-align: center;
+            vertical-align: middle;
+        }
+</style>
+
+<h2 class="text-center text-light mb-4">Historial de @ViewBag.Moneda</h2>
+
+<div class="container historial-container">
+    <canvas id="chart" height="120"></canvas>
+
+    <hr class="bg-light my-4" />
+
+    <table class="table table-hover table-historial">
+        <thead class="table-secondary text-dark">
+            <tr>
+                <th>Fecha</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Fecha.ToString("dd/MM/yyyy")</td>
+                    <td>@item.Valor</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('chart').getContext('2d');
+    const chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: @Html.Raw(Json.Encode(fechas)),
+            datasets: [{
+                label: 'Valor de @ViewBag.Moneda',
+                data: @Html.Raw(Json.Encode(valores)),
+                borderColor: 'rgba(0, 191, 255, 1)',
+                backgroundColor: 'rgba(0, 191, 255, 0.3)',
+                fill: true,
+                tension: 0.3
+            }]
+        },
+        options: {
+            plugins: {
+                legend: {
+                    labels: { color: '#fff' }
+                }
+            },
+            scales: {
+                x: { ticks: { color: '#fff' } },
+                y: { ticks: { color: '#fff' }, beginAtZero: false }
+            }
+        }
+    });
+</script>
+

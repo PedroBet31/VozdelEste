@@ -1,0 +1,228 @@
+﻿@model VozdelEste.Models.ComentariosViewModel
+
+@{
+    ViewBag.Title = "Comentarios de " + Model.Programa.Nombre;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var usuario = Session["Usuario"] as VozdelEste.Models.Usuarios;
+    var clienteEmail = usuario?.Email ?? "";
+    var cliente = new VozdelEste.Models.VozDelEsteDBEntities().Clientes.FirstOrDefault(c => c.Email == clienteEmail);
+    var clienteCI = cliente?.CI ?? "";
+    bool esAdmin = usuario?.RolId == 1;
+}
+
+<style>
+    .perfil-panel {
+        background: rgba(255, 255, 255, 0.06);
+        padding: 2rem;
+        border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(8px);
+        color: white;
+        max-width: 900px;
+        margin: 3rem auto;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+        .perfil-panel h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-weight: bold;
+        }
+
+    .comentario-item {
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.07);
+        border-radius: 14px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .comentario-text {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        white-space: pre-line;
+    }
+
+    .comentario-meta {
+        font-size: 0.85rem;
+        color: #ccc;
+    }
+
+    .comentario-acciones {
+        margin-top: 1rem;
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .btn-editar, .btn-eliminar, .btn-cancelar, .btn-guardar {
+        padding: 0.4rem 1rem;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        transition: 0.2s ease;
+    }
+
+    .btn-editar {
+        background-color: #007bff;
+        color: white;
+    }
+
+        .btn-editar:hover {
+            background-color: #0056b3;
+        }
+
+    .btn-eliminar {
+        background-color: #dc3545;
+        color: white;
+    }
+
+        .btn-eliminar:hover {
+            background-color: #b02a37;
+        }
+
+    .btn-guardar {
+        background-color: #28a745;
+        color: white;
+    }
+
+        .btn-guardar:hover {
+            background-color: #218838;
+        }
+
+    .btn-cancelar {
+        background-color: #6c757d;
+        color: white;
+    }
+
+        .btn-cancelar:hover {
+            background-color: #495057;
+        }
+
+    .comentario-form textarea {
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        padding: 1rem;
+        background-color: rgba(255, 255, 255, 0.08);
+        color: white;
+        resize: vertical;
+    }
+
+    .btn-enviar {
+        background-color: #a3cef1;
+        color: #0f2027;
+        border: none;
+        padding: 0.6rem 1.4rem;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+        .btn-enviar:hover {
+            background-color: #7bbbe5;
+        }
+
+    .btn-volver {
+        background-color: rgba(255, 255, 255, 0.08);
+        color: white;
+        padding: 0.6rem 1.4rem;
+        border: 1px solid white;
+        border-radius: 8px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+    }
+
+        .btn-volver:hover {
+            background-color: rgba(255, 255, 255, 0.15);
+            border-color: #a3cef1;
+            color: #a3cef1;
+            transform: translateY(-2px);
+        }
+
+
+
+    #editar-form textarea {
+        margin-top: 1rem;
+    }
+</style>
+<div class="perfil-panel">
+    <h2>Comentarios de <strong>@Model.Programa.Nombre</strong></h2>
+
+    @if (!Model.Comentarios.Any())
+    {
+        <p>No hay comentarios aún. ¡Sé el primero en comentar!</p>
+    }
+    else
+    {
+        foreach (var c in Model.Comentarios)
+        {
+            var esMio = c.ClienteCI == clienteCI;
+            <div class="comentario-item" id="comentario-@c.Id">
+                <p class="comentario-text">@c.Comentario</p>
+                <div class="comentario-meta">
+                    Por: <strong>@c.ClienteNombre</strong> | @c.Fecha.ToString("dd/MM/yyyy HH:mm")
+                </div>
+
+                @if (esMio || esAdmin)
+                {
+                    <div class="comentario-acciones">
+                        @if (esMio)
+                        {
+                            <button class="btn-editar" onclick="mostrarEditar(@c.Id)">Editar</button>
+                        }
+
+                        @using (Html.BeginForm("BorrarComentarioPost", "ComentariosProgramas", new { id = c.Id }, FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn-eliminar">Eliminar</button>
+                        }
+                    </div>
+                }
+
+                @if (esMio)
+                {
+                    <div id="editar-form-@c.Id" style="display:none;">
+                        @using (Html.BeginForm("EditarComentario", "ComentariosProgramas", new { id = c.Id }, FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            <textarea name="comentario" rows="3">@c.Comentario</textarea>
+                            <button type="submit" class="btn-guardar">Guardar</button>
+                            <button type="button" class="btn-cancelar" onclick="ocultarEditar(@c.Id)">Cancelar</button>
+                        }
+                    </div>
+                }
+            </div>
+        }
+    }
+
+    <h4>Agregar nuevo comentario</h4>
+    @using (Html.BeginForm("CrearComentario", "ComentariosProgramas", FormMethod.Post, new { @class = "comentario-form" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m => m.NuevoComentario.ProgramaId)
+
+        <div>
+            @Html.TextAreaFor(m => m.NuevoComentario.Comentario, new { rows = 4, placeholder = "Escribe tu comentario...", required = "required" })
+        </div>
+        <button type="submit" class="btn-enviar">Enviar</button>
+        @Html.ActionLink("Volver", "Index", "Programas", null, new { @class = "btn-volver" })
+    }
+</div>
+
+@section Scripts {
+    <script>
+        function mostrarEditar(id) {
+            document.getElementById('editar-form-' + id).style.display = 'block';
+            document.querySelector('#comentario-' + id + ' .comentario-text').style.display = 'none';
+        }
+        function ocultarEditar(id) {
+            document.getElementById('editar-form-' + id).style.display = 'none';
+            document.querySelector('#comentario-' + id + ' .comentario-text').style.display = 'block';
+        }
+    </script>
+}

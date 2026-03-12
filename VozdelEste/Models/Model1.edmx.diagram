@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1274f47b6a4642029d9f75197fe09041" Name="Diagram1" ZoomLevel="71">
+        <EntityTypeShape EntityType="Model1.Clientes" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.Clima" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.ComentariosProgramas" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.Conductores" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.Cotizaciones" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.Noticias" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.Patrocinadores" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.Permisos" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.Programas" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.Roles" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.Usuarios" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="Model1.FK__Comentari__Clien__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="Model1.FK__Comentari__Progr__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="Model1.FK__Usuarios__RolId__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="Model1.ProgramaConductores" ManuallyRouted="false" />
+        <AssociationConnector Association="Model1.RolPermisos" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Model1.ProgramaConductores" Width="1.5" PointX="0.875" PointY="8.5" />
+        <AssociationConnector Association="Model1.FK__ProgramaC__Condu__0B91BA14" />
+        <AssociationConnector Association="Model1.FK__ProgramaC__Progr__0A9D95DB" />
+        <AssociationConnector Association="Model1.FK_Clientes_Usuarios" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

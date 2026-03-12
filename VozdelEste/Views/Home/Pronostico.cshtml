@@ -1,0 +1,80 @@
+﻿@model Newtonsoft.Json.Linq.JObject
+@using System.Linq
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Pronóstico – Voz del Este";
+
+    var now = (VozdelEste.Models.Weather.Weather)ViewBag.WeatherNow;
+    var list = Model["list"];                     // bloques de 3 h
+    var city = Model["city"]["name"].ToString();
+
+    var dias = list
+        .GroupBy(j => DateTimeOffset.FromUnixTimeSeconds((long)j["dt"]).Date)
+        .Take(6)
+        .Select(g => new
+        {
+            Fecha = g.Key,
+            TempMin = g.Min(b => (double)b["main"]["temp_min"]),
+            TempMax = g.Max(b => (double)b["main"]["temp_max"]),
+            Humedad = g.Average(b => (double)b["main"]["humidity"]),
+            Icono = g.First()["weather"][0]["icon"].ToString(),
+            Desc = g.First()["weather"][0]["description"].ToString()
+        });
+}
+
+<style>
+    .info-big, .day-box {
+        background: rgba(255,255,255,.15);
+        border-radius: 12px;
+        padding: 1rem;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0,0,0,.35);
+        margin-bottom: 1.5rem;
+        align-content: center;
+    }
+
+    .day-box {
+        padding: .8rem;
+    }
+</style>
+
+<h2 class="text-center mb-4">Clima hoy – @city</h2>
+
+<div class="row justify-content-center">
+    <div class="col-md-6 info-big">
+        <h3>@now.Main.Temp.ToString("0.#") °C</h3>
+        <img src="@($"https://openweathermap.org/img/wn/{now.WeatherWeather[0].Icon}@2x.png")"
+             alt="icono" />
+        <p class="mb-1">@now.WeatherWeather[0].Description</p>
+        <p class="mb-1">
+
+        </p>
+        <p class="mb-1">
+            Humedad: @now.Main.Humidity% –
+            Viento: @now.Wind.Speed m/s
+        </p>
+        <p class="mb-0 small">
+            ☀ Amanece @DateTimeOffset.FromUnixTimeSeconds(now.Sys.Sunrise).ToLocalTime():HH:mm&nbsp;
+            | 🌇 Atardece @DateTimeOffset.FromUnixTimeSeconds(now.Sys.Sunset).ToLocalTime():HH:mm
+        </p>
+    </div>
+</div>
+
+<h3 class="text-center mb-3">Pronóstico próximos 6 días</h3>
+
+<div class="row">
+    @foreach (var d in dias)
+    {
+        <div class="col-md-2 col-6">
+            <div class="day-box">
+                <h6>@d.Fecha:dd/MM</h6>
+                <img src="@($"https://openweathermap.org/img/wn/{d.Icono}@2x.png")" alt="">
+                <p class="mb-1">
+                    <strong>@d.TempMin.ToString("0.#") / @d.TempMax.ToString("0.#") °C</strong>
+                </p>
+                <small>@d.Desc</small><br />
+                <small>Humedad @d.Humedad.ToString("0")%</small>
+            </div>
+        </div>
+    }
+</div>

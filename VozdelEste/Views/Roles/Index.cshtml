@@ -1,0 +1,61 @@
+﻿@model IEnumerable<VozdelEste.Models.Roles>
+
+@{
+    ViewBag.Title = "Roles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var u = (VozdelEste.Models.Usuarios)Session["Usuario"];
+}
+
+@section Styles {
+    <link href="~/Styles/Roles.css" rel="stylesheet" />
+}
+
+<div class="container my-5">
+    <div class="main-panel">
+        <h2 class="text-center mb-4">Gestión de Roles</h2>
+
+        <div class="d-flex justify-content-between mb-3">
+            @if (u.TienePermiso("Crear roles"))
+            {
+                @Html.ActionLink("➕ Crear nuevo rol", "Create", null, new { @class = "btn-create me-2" })
+            }
+            @Html.ActionLink("⚙️ Gestionar Permisos", "Index", "Permisos", new { }, new { @class = "btn-create btn-secondary" })
+
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered roles-table text-white">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Nombre)</th>
+                        <th class="text-end">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                            <td class="text-end action-links">
+                                @if (u.TienePermiso("Editar roles"))
+                                {
+                                    <a class="action-btn edit" href="@Url.Action("Edit", new { id = item.Id })">Editar</a>
+                                }
+
+                                @if (u.TienePermiso("Ver roles"))
+                                {
+                                    <a class="action-btn details" href="@Url.Action("Details", new { id = item.Id })">Detalles</a>
+                                }
+
+                                @if (u.TienePermiso("Eliminar roles"))
+                                {
+                                    <a class="action-btn delete" href="@Url.Action("Delete", new { id = item.Id })">Eliminar</a>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

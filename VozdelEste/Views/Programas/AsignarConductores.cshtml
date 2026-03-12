@@ -1,0 +1,123 @@
+﻿@model VozdelEste.Models.AsignarConductoresViewModel
+
+@{
+    ViewBag.Title = "Asignar Conductores";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .perfil-panel {
+        background-color: rgba(255, 255, 255, 0.08);
+        border-radius: 15px;
+        padding: 2rem;
+        max-width: 600px;
+        margin: 3rem auto;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        color: white;
+        text-align: left;
+    }
+
+        .perfil-panel h2 {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+    .checkbox-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .form-check-conductor {
+        background-color: rgba(255, 255, 255, 0.05);
+        padding: 0.8rem 1rem;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        transition: background 0.2s ease-in-out;
+    }
+
+        .form-check-conductor:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+    .form-check-label {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        font-size: 1rem;
+        cursor: pointer;
+        color: white;
+        width: 100%;
+    }
+
+    .form-check-input {
+        width: 18px;
+        height: 18px;
+        accent-color: #a3cef1;
+    }
+
+    .perfil-actions {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+        .perfil-actions a,
+        .perfil-actions button {
+            padding: 0.6rem 1.4rem;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 0.2s ease-in-out;
+            border: none;
+        }
+
+    .btn-editar {
+        background-color: #a3cef1;
+        color: #0f2027;
+    }
+
+        .btn-editar:hover {
+            background-color: #7bbbe5;
+        }
+
+    .btn-eliminar {
+        background-color: #e04e4e;
+        color: white;
+    }
+
+        .btn-eliminar:hover {
+            background-color: #c63838;
+        }
+
+</style>
+<div class="perfil-panel">
+    <h2>Asignar Conductores a @Model.ProgramaNombre</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m => m.ProgramaId)
+
+        <div class="checkbox-list mb-4">
+            @for (int i = 0; i < Model.ConductoresDisponibles.Count; i++)
+            {
+                <div class="form-check-conductor">
+                    @Html.HiddenFor(m => m.ConductoresDisponibles[i].Id)
+                    <label class="form-check-label">
+                        @Html.CheckBoxFor(m => m.ConductoresDisponibles[i].Seleccionado, new { @class = "form-check-input" })
+                        <span>@Model.ConductoresDisponibles[i].Nombre</span>
+                    </label>
+                </div>
+            }
+        </div>
+
+        <div class="perfil-actions">
+            <button type="submit" class="btn btn-editar">Guardar</button>
+            @Html.ActionLink("Volver", "Index", null, new { @class = "btn btn-eliminar" })
+        </div>
+    }
+</div>

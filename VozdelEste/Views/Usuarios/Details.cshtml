@@ -1,0 +1,25 @@
+﻿@model VozdelEste.Models.Usuarios
+
+@{
+    ViewBag.Title = "Detalles del Usuario";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link href="~/Styles/Views/UsuariosViews.css" rel="stylesheet" />
+}
+
+<div class="perfil-panel">
+    <h2>Detalles del Usuario</h2>
+
+    <div class="perfil-info">
+        <p><strong>Nombre:</strong> @Model.Nombre</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Rol:</strong> @Model.Roles.Nombre</p>
+    </div>
+
+    <div class="perfil-actions">
+        @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-editar" })
+        @Html.ActionLink("Volver", "Index", null, new { @class = "btn btn-eliminar" })
+    </div>
+</div>

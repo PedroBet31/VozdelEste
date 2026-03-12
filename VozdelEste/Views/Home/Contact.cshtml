@@ -1,0 +1,103 @@
+﻿@{
+    ViewBag.Title = "Contáctanos";
+}
+
+<style>
+    .contact-wrapper {
+        padding: 3rem 1rem;
+    }
+
+    .contact-panel {
+        background-color: rgba(255, 255, 255, 0.08);
+        border-radius: 15px;
+        padding: 2rem;
+        max-width: 600px;
+        margin: 0 auto;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        color: white;
+        text-align: left;
+        backdrop-filter: blur(5px);
+    }
+
+        .contact-panel h2 {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+    .contact-section {
+        margin-bottom: 2rem;
+    }
+
+        .contact-section h4 {
+            font-size: 1.2rem;
+            color: #a3cef1;
+            margin-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 0.3rem;
+        }
+
+        .contact-section p,
+        .contact-section li,
+        .contact-section a {
+            font-size: 1.05rem;
+            color: #eee;
+            margin-bottom: 0.4rem;
+            text-decoration: none;
+        }
+
+    .contact-list {
+        padding-left: 1rem;
+    }
+
+    .map-container {
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+        margin-top: 0.8rem;
+    }
+
+    .contact-section a:hover {
+        color: #7bbbe5;
+        text-decoration: underline;
+    }
+</style>
+
+
+<div class="contact-wrapper">
+
+    <div class="contact-panel" role="main" aria-labelledby="contact-title">
+        <h2 id="contact-title">@ViewBag.Title</h2>
+
+        <div class="contact-section">
+            <h4>📍 Dirección</h4>
+            <p>Punta del Este, Maldonado</p>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7042.414916819162!2d-54.95762765982823!3d-34.906972356681706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95751a8362acf6ad%3A0x28204abe5618b072!2sCEI!5e1!3m2!1ses-419!2suy!4v1749571396214!5m2!1ses-419!2suy"
+                        width="100%"
+                        height="250"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        aria-label="Ubicación de Voz del Este">
+                </iframe>
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h4>📞 Teléfonos</h4>
+            <ul class="contact-list">
+                <li>+598 93 894 633</li>
+                <li>+598 94 031 114</li>
+            </ul>
+        </div>
+
+        <div class="contact-section">
+            <h4>📧 Correos electrónicos</h4>
+            <p><strong>Soporte:</strong> <a href="mailto:vozdelestesoporte@gmail.com">vozdelestesoporte@gmail.com</a></p>
+            <p><strong>Departamento de Marketing:</strong> <a href="mailto:vozdelestemarketing@gmail.com">vozdelestemarketing@gmail.com</a></p>
+        </div>
+    </div>
+
+</div>

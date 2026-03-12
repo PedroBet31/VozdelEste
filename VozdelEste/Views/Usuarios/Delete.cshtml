@@ -1,0 +1,29 @@
+﻿@model VozdelEste.Models.Usuarios
+
+@{
+    ViewBag.Title = "Eliminar Usuario";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link href="~/Styles/Views/UsuariosViews.css" rel="stylesheet" />
+}
+
+<div class="perfil-panel">
+    <h2>¿Eliminar este Usuario?</h2>
+
+    <div class="perfil-info mb-4">
+        <p><strong>Nombre:</strong> @Model.Nombre</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Rol:</strong> @Model.Roles.Nombre</p>
+    </div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="perfil-actions">
+            <input type="submit" value="Eliminar" class="btn btn-eliminar" />
+            @Html.ActionLink("Cancelar", "Perfil", null, new { @class = "btn btn-editar" })
+        </div>
+    }
+</div>

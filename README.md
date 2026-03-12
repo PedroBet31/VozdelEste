@@ -31,7 +31,7 @@ The platform also implements a role-based access control system with dynamic per
 
 This project was developed as the final project for the Programming course of the third semester in the *Analista Programador* program at **CEI – CLAEH**. The objective was to design and implement a complete web application following the MVC architecture, focusing on structured development, database management, role-based permissions, and integration with external services.
 
-# **Author**
+# **Authors**
 
 Pedro Betbeder & Ramiro Pereira
 
